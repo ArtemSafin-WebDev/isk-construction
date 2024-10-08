@@ -60,7 +60,7 @@
   font-size: 1.4rem;
   line-height: 120%;
   text-transform: uppercase;
-  color: #977e53;
+  color: white;
 }
 
 .page-header__logo-desc {
@@ -76,18 +76,107 @@
   display: contents;
 
   @include breakpoint(mobile) {
-    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overscroll-behavior-y: contain;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 70;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.4s, visibility 0s linear 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #21170f;
+    color: var(--text-color);
+    padding: 0 var(--content-padding);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    .menu-open & {
+      opacity: 1;
+      visibility: inherit;
+      transition: opacity 0.4s, visibility 0.4s;
+    }
+
+    body:not(.loaded) & {
+      display: none;
+    }
+  }
+}
+
+.page-header__menu-header {
+  display: none;
+
+  @include breakpoint(mobile) {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+  }
+}
+
+.page-header__menu-logo {
+  flex-shrink: 0;
+  display: block;
+}
+
+.page-header__menu-logo-image {
+  width: 8rem;
+  display: block;
+  height: auto;
+}
+
+.page-header__menu-burger {
+  flex-shrink: 0;
+  margin-left: auto;
+
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    height: 0.2rem;
+    width: 3.4rem;
+    background-color: #977e53;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+
+  &::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  &::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
   }
 }
 
 .page-header__nav {
   grid-column: 5 / -1;
+
+  @include breakpoint(mobile) {
+    margin-bottom: 3rem;
+  }
 }
 
 .page-header__nav-list {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
   grid-gap: 2rem;
+
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
 }
 
 .page-header__nav-list-item {
@@ -119,22 +208,35 @@
 }
 
 .page-header__nav-link {
-  display: block;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 120%;
-  text-decoration-line: underline;
-  text-transform: uppercase;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 1px;
-  text-decoration-thickness: 1px;
-  width: min-content;
-  transition: color 0.2s, text-decoration-color 0.2s;
-  @media (hover: hover) {
-    &:hover {
-      text-decoration-color: transparent;
+  @include breakpointMF(small-tablet) {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+    width: min-content;
+    transition: color 0.2s, text-decoration-color 0.2s;
+    @media (hover: hover) {
+      &:hover {
+        text-decoration-color: transparent;
+      }
     }
+  }
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 120%;
+    // letter-spacing: -0.05em;
+    text-transform: uppercase;
+    font-family: var(--oswald);
+    display: block;
   }
 }
 
@@ -159,5 +261,34 @@
       background-color: #977e53;
       transition: opacity 0.2s, transform 0.2s;
     }
+  }
+}
+
+.page-header__menu-contacts {
+  display: none;
+
+  @include breakpoint(mobile) {
+    display: block;
+    margin-top: auto;
+  }
+}
+
+.page-header__menu-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.page-header__menu-contacts-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  b {
+    font-weight: inherit;
+    color: #977e53;
   }
 }

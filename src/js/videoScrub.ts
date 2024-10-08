@@ -32,11 +32,6 @@ export default function videoScrub() {
     video.pause();
   });
 
-  /* ---------------------------------- */
-  /* Scroll Control! */
-
-  gsap.registerPlugin(ScrollTrigger);
-
   let tl = gsap.timeline({
     defaults: { duration: 1 },
     scrollTrigger: {
@@ -58,6 +53,7 @@ export default function videoScrub() {
         currentTime: video.duration || 1,
       }
     );
+    video.classList.add("ready");
   });
 
   /* When first coded, the Blobbing was important to ensure the browser wasn't dropping previously played segments, but it doesn't seem to be a problem now. Possibly based on memory availability? */
