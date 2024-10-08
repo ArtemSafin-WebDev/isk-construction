@@ -1,0 +1,132 @@
+.park {
+  background-color: #6e4d31;
+  color: white;
+  position: relative;
+  z-index: 4;
+  @include blockWrapper;
+}
+
+.park__content {
+  @include blockContent;
+}
+
+.park__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 0;
+  }
+}
+
+.park__text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+
+  @include breakpoint(mobile) {
+    display: contents;
+  }
+}
+
+.park__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6rem;
+  font-family: var(--oswald);
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-wrap: balance;
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    line-height: 120%;
+  }
+}
+
+.park__link {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  align-self: flex-start;
+  padding: 1.5rem 4rem;
+  border: 1px solid #ffffff;
+  border-radius: 7rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  transition: color 0.2s, background-color 0.2s;
+  &:link,
+  &:visited {
+    color: white;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: white;
+      color: var(--primary-color);
+    }
+  }
+
+  &:active {
+    background-color: white;
+    color: var(--primary-color);
+  }
+
+  @include breakpoint(mobile) {
+    padding: 1.5rem 4rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    order: 50;
+    margin-top: -8rem;
+  }
+}
+
+.park__image-wrapper {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint(mobile) {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.park__image {
+  height: 50.4rem;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: right center;
+  margin-left: auto;
+
+  @include breakpoint(mobile) {
+    margin: 0;
+    height: auto;
+    width: 100%;
+  }
+}

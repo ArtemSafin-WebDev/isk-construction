@@ -1,0 +1,119 @@
+.since {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+}
+
+.since__content {
+  @include blockContent;
+  padding: 4rem 0;
+  min-height: 100vh;
+  min-height: min(100vh, 83rem);
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint(mobile) {
+    min-height: min(100vh, 69rem);
+    min-height: min(100svh, 69rem);
+    padding: 4rem 0;
+  }
+}
+
+.since__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+  align-items: flex-start;
+
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3rem;
+  }
+}
+
+.since__year {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #977e53;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 110%;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+}
+
+.since__text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7.5rem;
+
+  @include breakpoint(mobile) {
+    display: contents;
+  }
+}
+
+.since__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6rem;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  line-height: 120%;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 120%;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+}
+
+.since__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1.6rem 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #977e53;
+  transition: background-color 0.2s, color 0.2s;
+  border: 1px solid #977e53;
+  border-radius: 7rem;
+  align-self: flex-start;
+  &:link,
+  &:visited {
+    color: #977e53;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: #977e53;
+      color: white;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    margin: 0;
+  }
+}

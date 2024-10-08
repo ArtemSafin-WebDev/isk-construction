@@ -1,0 +1,121 @@
+.ceo {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+  color: white;
+  background-color: #160f0a;
+}
+
+.ceo__image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right bottom;
+  z-index: -1;
+  -webkit-user-drag: none;
+}
+
+.ceo__content {
+  @include blockContent;
+  display: flex;
+  flex-direction: column;
+  min-height: 96rem;
+  min-height: min(100vh, 96rem);
+  gap: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  @include breakpoint(mobile) {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    gap: 2rem;
+    min-height: 73rem;
+    min-height: min(100svh, 73rem);
+  }
+  &::before {
+    content: "";
+    width: 4.7rem;
+    height: 3.8rem;
+    display: block;
+    background-image: url("../images/quotes.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include breakpoint(mobile) {
+      width: 3.5rem;
+      height: 2.8rem;
+    }
+  }
+}
+
+.ceo__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6rem;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+  text-wrap: balance;
+  max-width: 91rem;
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    max-width: none;
+  }
+}
+
+.ceo__info {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  @include breakpoint(mobile) {
+    gap: 1.5rem;
+  }
+}
+
+.ceo__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  font-family: var(--oswald);
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+}
+
+.ceo__role {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 140%;
+    max-width: 15.8rem;
+  }
+}
