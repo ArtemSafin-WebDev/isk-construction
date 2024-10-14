@@ -225,6 +225,14 @@
   }
 }
 
+a[href^="tel:"].page-footer__contacts-item {
+  @media (hover: hover) {
+    &:hover {
+      color: #977e53;
+    }
+  }
+}
+
 .page-footer__bottom-row {
   margin-top: auto;
   display: grid;

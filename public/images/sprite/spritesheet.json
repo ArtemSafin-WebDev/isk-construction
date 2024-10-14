@@ -1,0 +1,1457 @@
+{
+	"meta": {
+		"image": "spritesheet.png",
+		"size": {"w":16500,"h":15946},
+		"scale": "1"
+	},
+	"frames": {
+		"logo-isk-logo.80.1.webp":
+		{
+			"frame": {"x":0,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.10.webp":
+		{
+			"frame": {"x":1500,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.100.webp":
+		{
+			"frame": {"x":0,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.101.webp":
+		{
+			"frame": {"x":1500,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.102.webp":
+		{
+			"frame": {"x":0,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.103.webp":
+		{
+			"frame": {"x":1500,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.104.webp":
+		{
+			"frame": {"x":3000,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.105.webp":
+		{
+			"frame": {"x":3000,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.106.webp":
+		{
+			"frame": {"x":3000,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.107.webp":
+		{
+			"frame": {"x":0,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.108.webp":
+		{
+			"frame": {"x":1500,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.109.webp":
+		{
+			"frame": {"x":3000,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.11.webp":
+		{
+			"frame": {"x":4500,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.110.webp":
+		{
+			"frame": {"x":4500,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.111.webp":
+		{
+			"frame": {"x":4500,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.112.webp":
+		{
+			"frame": {"x":4500,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.113.webp":
+		{
+			"frame": {"x":0,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.114.webp":
+		{
+			"frame": {"x":1500,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.115.webp":
+		{
+			"frame": {"x":3000,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.116.webp":
+		{
+			"frame": {"x":4500,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.117.webp":
+		{
+			"frame": {"x":0,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.118.webp":
+		{
+			"frame": {"x":1500,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.119.webp":
+		{
+			"frame": {"x":3000,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.12.webp":
+		{
+			"frame": {"x":4500,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.120.webp":
+		{
+			"frame": {"x":6000,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.121.webp":
+		{
+			"frame": {"x":6000,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.122.webp":
+		{
+			"frame": {"x":6000,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.123.webp":
+		{
+			"frame": {"x":6000,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.124.webp":
+		{
+			"frame": {"x":6000,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.125.webp":
+		{
+			"frame": {"x":6000,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.126.webp":
+		{
+			"frame": {"x":0,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.127.webp":
+		{
+			"frame": {"x":1500,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.128.webp":
+		{
+			"frame": {"x":3000,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.129.webp":
+		{
+			"frame": {"x":4500,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.13.webp":
+		{
+			"frame": {"x":6000,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.130.webp":
+		{
+			"frame": {"x":7500,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.131.webp":
+		{
+			"frame": {"x":7500,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.132.webp":
+		{
+			"frame": {"x":7500,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.133.webp":
+		{
+			"frame": {"x":7500,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.134.webp":
+		{
+			"frame": {"x":7500,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.135.webp":
+		{
+			"frame": {"x":7500,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.136.webp":
+		{
+			"frame": {"x":7500,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.137.webp":
+		{
+			"frame": {"x":0,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.138.webp":
+		{
+			"frame": {"x":1500,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.139.webp":
+		{
+			"frame": {"x":3000,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.14.webp":
+		{
+			"frame": {"x":4500,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.140.webp":
+		{
+			"frame": {"x":6000,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.141.webp":
+		{
+			"frame": {"x":7500,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.142.webp":
+		{
+			"frame": {"x":0,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.143.webp":
+		{
+			"frame": {"x":1500,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.144.webp":
+		{
+			"frame": {"x":3000,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.145.webp":
+		{
+			"frame": {"x":4500,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.146.webp":
+		{
+			"frame": {"x":6000,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.147.webp":
+		{
+			"frame": {"x":7500,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.148.webp":
+		{
+			"frame": {"x":9000,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.149.webp":
+		{
+			"frame": {"x":9000,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.15.webp":
+		{
+			"frame": {"x":9000,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.150.webp":
+		{
+			"frame": {"x":9000,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.151.webp":
+		{
+			"frame": {"x":9000,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.152.webp":
+		{
+			"frame": {"x":9000,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.153.webp":
+		{
+			"frame": {"x":9000,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.154.webp":
+		{
+			"frame": {"x":9000,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.155.webp":
+		{
+			"frame": {"x":9000,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.156.webp":
+		{
+			"frame": {"x":0,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.157.webp":
+		{
+			"frame": {"x":1500,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.158.webp":
+		{
+			"frame": {"x":3000,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.159.webp":
+		{
+			"frame": {"x":4500,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.16.webp":
+		{
+			"frame": {"x":6000,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.160.webp":
+		{
+			"frame": {"x":7500,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.161.webp":
+		{
+			"frame": {"x":9000,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.162.webp":
+		{
+			"frame": {"x":0,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.163.webp":
+		{
+			"frame": {"x":1500,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.164.webp":
+		{
+			"frame": {"x":3000,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.165.webp":
+		{
+			"frame": {"x":4500,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.166.webp":
+		{
+			"frame": {"x":6000,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.167.webp":
+		{
+			"frame": {"x":7500,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.168.webp":
+		{
+			"frame": {"x":9000,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.169.webp":
+		{
+			"frame": {"x":10500,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.17.webp":
+		{
+			"frame": {"x":10500,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.170.webp":
+		{
+			"frame": {"x":10500,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.171.webp":
+		{
+			"frame": {"x":10500,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.172.webp":
+		{
+			"frame": {"x":10500,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.173.webp":
+		{
+			"frame": {"x":10500,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.174.webp":
+		{
+			"frame": {"x":10500,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.175.webp":
+		{
+			"frame": {"x":10500,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.176.webp":
+		{
+			"frame": {"x":10500,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.177.webp":
+		{
+			"frame": {"x":10500,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.178.webp":
+		{
+			"frame": {"x":10500,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.179.webp":
+		{
+			"frame": {"x":0,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.18.webp":
+		{
+			"frame": {"x":1500,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.180.webp":
+		{
+			"frame": {"x":3000,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.181.webp":
+		{
+			"frame": {"x":4500,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.19.webp":
+		{
+			"frame": {"x":6000,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.2.webp":
+		{
+			"frame": {"x":7500,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.20.webp":
+		{
+			"frame": {"x":9000,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.21.webp":
+		{
+			"frame": {"x":10500,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.22.webp":
+		{
+			"frame": {"x":12000,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.23.webp":
+		{
+			"frame": {"x":12000,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.24.webp":
+		{
+			"frame": {"x":12000,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.25.webp":
+		{
+			"frame": {"x":12000,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.26.webp":
+		{
+			"frame": {"x":12000,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.27.webp":
+		{
+			"frame": {"x":12000,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.28.webp":
+		{
+			"frame": {"x":12000,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.29.webp":
+		{
+			"frame": {"x":12000,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.3.webp":
+		{
+			"frame": {"x":12000,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.30.webp":
+		{
+			"frame": {"x":12000,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.31.webp":
+		{
+			"frame": {"x":12000,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.32.webp":
+		{
+			"frame": {"x":12000,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.33.webp":
+		{
+			"frame": {"x":0,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.34.webp":
+		{
+			"frame": {"x":1500,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.35.webp":
+		{
+			"frame": {"x":3000,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.36.webp":
+		{
+			"frame": {"x":4500,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.37.webp":
+		{
+			"frame": {"x":6000,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.38.webp":
+		{
+			"frame": {"x":7500,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.39.webp":
+		{
+			"frame": {"x":9000,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.4.webp":
+		{
+			"frame": {"x":10500,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.40.webp":
+		{
+			"frame": {"x":12000,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.41.webp":
+		{
+			"frame": {"x":0,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.42.webp":
+		{
+			"frame": {"x":1500,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.43.webp":
+		{
+			"frame": {"x":3000,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.44.webp":
+		{
+			"frame": {"x":4500,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.45.webp":
+		{
+			"frame": {"x":6000,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.46.webp":
+		{
+			"frame": {"x":7500,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.47.webp":
+		{
+			"frame": {"x":9000,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.48.webp":
+		{
+			"frame": {"x":10500,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.49.webp":
+		{
+			"frame": {"x":12000,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.5.webp":
+		{
+			"frame": {"x":13500,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.50.webp":
+		{
+			"frame": {"x":13500,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.51.webp":
+		{
+			"frame": {"x":13500,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.52.webp":
+		{
+			"frame": {"x":13500,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.53.webp":
+		{
+			"frame": {"x":13500,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.54.webp":
+		{
+			"frame": {"x":13500,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.55.webp":
+		{
+			"frame": {"x":13500,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.56.webp":
+		{
+			"frame": {"x":13500,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.57.webp":
+		{
+			"frame": {"x":13500,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.58.webp":
+		{
+			"frame": {"x":13500,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.59.webp":
+		{
+			"frame": {"x":13500,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.6.webp":
+		{
+			"frame": {"x":13500,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.60.webp":
+		{
+			"frame": {"x":13500,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.61.webp":
+		{
+			"frame": {"x":13500,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.62.webp":
+		{
+			"frame": {"x":0,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.63.webp":
+		{
+			"frame": {"x":1500,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.64.webp":
+		{
+			"frame": {"x":3000,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.65.webp":
+		{
+			"frame": {"x":4500,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.66.webp":
+		{
+			"frame": {"x":6000,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.67.webp":
+		{
+			"frame": {"x":7500,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.68.webp":
+		{
+			"frame": {"x":9000,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.69.webp":
+		{
+			"frame": {"x":10500,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.7.webp":
+		{
+			"frame": {"x":12000,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.70.webp":
+		{
+			"frame": {"x":13500,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.71.webp":
+		{
+			"frame": {"x":15000,"y":0,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.72.webp":
+		{
+			"frame": {"x":15000,"y":938,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.73.webp":
+		{
+			"frame": {"x":15000,"y":1876,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.74.webp":
+		{
+			"frame": {"x":15000,"y":2814,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.75.webp":
+		{
+			"frame": {"x":15000,"y":3752,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.76.webp":
+		{
+			"frame": {"x":15000,"y":4690,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.77.webp":
+		{
+			"frame": {"x":15000,"y":5628,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.78.webp":
+		{
+			"frame": {"x":15000,"y":6566,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.79.webp":
+		{
+			"frame": {"x":15000,"y":7504,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.8.webp":
+		{
+			"frame": {"x":15000,"y":8442,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.80.webp":
+		{
+			"frame": {"x":15000,"y":9380,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.81.webp":
+		{
+			"frame": {"x":15000,"y":10318,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.82.webp":
+		{
+			"frame": {"x":15000,"y":11256,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.83.webp":
+		{
+			"frame": {"x":15000,"y":12194,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.84.webp":
+		{
+			"frame": {"x":15000,"y":13132,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.85.webp":
+		{
+			"frame": {"x":0,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.86.webp":
+		{
+			"frame": {"x":1500,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.87.webp":
+		{
+			"frame": {"x":3000,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.88.webp":
+		{
+			"frame": {"x":4500,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.89.webp":
+		{
+			"frame": {"x":6000,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.9.webp":
+		{
+			"frame": {"x":7500,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.90.webp":
+		{
+			"frame": {"x":9000,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.91.webp":
+		{
+			"frame": {"x":10500,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.92.webp":
+		{
+			"frame": {"x":12000,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.93.webp":
+		{
+			"frame": {"x":13500,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.94.webp":
+		{
+			"frame": {"x":15000,"y":14070,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.95.webp":
+		{
+			"frame": {"x":0,"y":15008,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.96.webp":
+		{
+			"frame": {"x":1500,"y":15008,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.97.webp":
+		{
+			"frame": {"x":3000,"y":15008,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.98.webp":
+		{
+			"frame": {"x":4500,"y":15008,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		},
+		"logo-isk-logo.80.99.webp":
+		{
+			"frame": {"x":6000,"y":15008,"w":1500,"h":938},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":938},
+			"sourceSize": {"w":1500,"h":938}
+		}
+	}
+}
