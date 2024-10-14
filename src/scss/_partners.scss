@@ -2,7 +2,7 @@
   position: relative;
   z-index: 4;
   @include blockWrapper;
-  background-color: black;
+
   color: #977e53;
 }
 
@@ -42,7 +42,7 @@
   letter-spacing: -0.05em;
   text-transform: uppercase;
   font-family: var(--oswald);
-
+  font-kerning: none;
   @include breakpoint(mobile) {
     font-style: normal;
     font-weight: 400;

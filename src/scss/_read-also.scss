@@ -1,0 +1,136 @@
+.read-also {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+  background-color: #fff;
+  color: black;
+}
+
+.read-also__content {
+  @include blockContent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7.2rem;
+  padding-bottom: 11.2rem;
+}
+
+.read-alos__top-row {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.read-also__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.read-also__arrows {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.read-also__arrow {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 6rem;
+  height: 6rem;
+  background-color: #6e4d31;
+  transition: background-color 0.2s;
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: white;
+  }
+
+  &.swiper-button-disabled {
+    background-color: rgba(#6e4d31, 0.3);
+  }
+}
+
+.read-also__slider {
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+    width: calc(33.33% - 2rem * 2 / 3);
+    margin-right: 2rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.read-also__slider-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  @media (hover: hover) {
+    &:hover {
+      .read-also__slider-card-image {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.read-also__slider-card-image-container {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-bottom: 80%;
+  }
+}
+
+.read-also__slider-card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s;
+}
+
+.read-also__slider-card-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.read-also__slider-card-tag {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 120%;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  flex-wrap: 0;
+  white-space: nowrap;
+  color: #8e8e8e;
+}
+
+.read-also__slider-card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 120%;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+}

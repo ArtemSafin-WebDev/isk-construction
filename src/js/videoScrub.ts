@@ -54,6 +54,7 @@ export default function videoScrub() {
       }
     );
     video.classList.add("ready");
+    ScrollTrigger.refresh();
   });
 
   /* When first coded, the Blobbing was important to ensure the browser wasn't dropping previously played segments, but it doesn't seem to be a problem now. Possibly based on memory availability? */
@@ -73,6 +74,7 @@ export default function videoScrub() {
 
           video.setAttribute("src", blobURL);
           video.currentTime = t + 0.01;
+          ScrollTrigger.refresh();
         });
     }
   }, 1000);

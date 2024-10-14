@@ -1,7 +1,6 @@
 .page-footer {
   position: relative;
-  background-color: #000;
-  background-color: #160f0a;
+
   color: var(--text-color);
   @include blockWrapper;
   position: relative;
@@ -370,6 +369,12 @@
   &:link,
   &:visited {
     color: #977e53;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: white;
+    }
   }
 
   @include breakpoint(mobile) {

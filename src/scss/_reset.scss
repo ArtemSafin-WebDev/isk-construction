@@ -157,6 +157,11 @@ svg {
   fill: currentColor;
 }
 
+picture,
+source {
+  display: contents;
+}
+
 img {
   border-style: none;
   max-width: 100%;
