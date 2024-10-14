@@ -9,7 +9,7 @@ import smoothScrolling from "./smoothScrolling";
 import partners from "./partners";
 import since from "./since";
 import homeNews from "./homeNews";
-import intro from "./intro";
+// import intro from "./intro";
 import ceo from "./ceo";
 import park from "./park";
 import introTwo from "./intro2";
