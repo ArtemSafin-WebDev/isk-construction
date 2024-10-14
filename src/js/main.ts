@@ -13,6 +13,7 @@ import homeNews from "./homeNews";
 import ceo from "./ceo";
 import park from "./park";
 import introTwo from "./intro2";
+import footer from "./footer";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   homeNews();
   ceo();
   park();
+  footer();
 });
 
 window.addEventListener("load", () => {

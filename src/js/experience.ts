@@ -41,8 +41,6 @@ export default function experience() {
             },
           });
 
-          console.log("Exp lines", lines);
-
           tl.from(
             ".experience__heading",
             {
@@ -97,7 +95,6 @@ export default function experience() {
           );
 
           return () => {
-            console.log("Clearing context");
             if (instance) instance.revert();
           };
         }, element);

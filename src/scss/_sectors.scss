@@ -135,6 +135,19 @@
   letter-spacing: -0.01em;
   color: white;
   transition: color 0.2s, background-color 0.2s;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    transition: transform 0.2s;
+    transform-origin: center bottom;
+    background-color: white;
+    transform: scaleY(0);
+  }
   &:link,
   &:visited {
     color: white;
@@ -142,14 +155,18 @@
 
   @media (hover: hover) {
     &:hover {
-      background-color: white;
       color: var(--primary-color);
+      &::before {
+        transform: scaleY(1);
+      }
     }
   }
 
   &:active {
-    background-color: white;
     color: var(--primary-color);
+    &::before {
+      transform: scaleY(1);
+    }
   }
 
   @include breakpoint(mobile) {

@@ -264,10 +264,6 @@ a[href^="tel:"].page-footer__contacts-item {
   text-transform: uppercase;
   color: #977e53;
   transition: color 0.2s, text-decoration-color 0.2s;
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-underline-offset: 1px;
-  text-decoration-skip-ink: none;
 
   &:link,
   &:visited {
@@ -275,7 +271,7 @@ a[href^="tel:"].page-footer__contacts-item {
   }
   @media (hover: hover) {
     &:hover {
-      text-decoration-color: #977e53;
+      color: white;
     }
   }
 
@@ -300,10 +296,6 @@ a[href^="tel:"].page-footer__contacts-item {
   text-transform: uppercase;
   color: #977e53;
   transition: color 0.2s, text-decoration-color 0.2s;
-  text-decoration: underline;
-  text-decoration-color: transparent;
-  text-underline-offset: 1px;
-  text-decoration-skip-ink: none;
 
   &:link,
   &:visited {
@@ -311,7 +303,7 @@ a[href^="tel:"].page-footer__contacts-item {
   }
   @media (hover: hover) {
     &:hover {
-      text-decoration-color: #977e53;
+      color: white;
     }
   }
   @include breakpoint(mobile) {

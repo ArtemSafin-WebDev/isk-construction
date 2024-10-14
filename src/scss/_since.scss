@@ -102,6 +102,19 @@
   border: 1px solid #977e53;
   border-radius: 7rem;
   align-self: flex-start;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    transition: transform 0.2s;
+    transform-origin: center bottom;
+    background-color: #977e53;
+    transform: scaleY(0);
+  }
   &:link,
   &:visited {
     color: #977e53;
@@ -109,8 +122,17 @@
 
   @media (hover: hover) {
     &:hover {
-      background-color: #977e53;
       color: white;
+      &::before {
+        transform: scaleY(1);
+      }
+    }
+  }
+
+  &:active {
+    color: white;
+    &::before {
+      transform: scaleY(1);
     }
   }
 

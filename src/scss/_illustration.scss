@@ -23,12 +23,16 @@
   top: 0;
   width: 100%;
   height: 100%;
-  -webkit-mask-image: linear-gradient(
-    269.73deg,
-    transparent 12.72%,
-    black 34.87%
-  );
+
   mix-blend-mode: lighten;
+
+  @include breakpointMF(small-tablet) {
+    -webkit-mask-image: linear-gradient(
+      269.73deg,
+      transparent 12.72%,
+      black 34.87%
+    );
+  }
 
   canvas {
     position: absolute;
@@ -37,10 +41,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 30% 15%;
+    object-position: 30% -25%;
     @include breakpoint(mobile) {
       width: 100%;
-      object-position: 35% 75%;
+      object-position: 35% 10%;
     }
   }
   &::after {

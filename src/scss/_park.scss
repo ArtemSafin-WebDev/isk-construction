@@ -26,8 +26,8 @@
 .park__text-content {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  justify-content: space-between;
+  gap: 3.5rem;
+
   padding-top: 4rem;
   padding-bottom: 3.5rem;
   grid-row: 1 / 2;
@@ -73,6 +73,19 @@
   letter-spacing: -0.01em;
   color: #ffffff;
   transition: color 0.2s, background-color 0.2s;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    transition: transform 0.2s;
+    transform-origin: center bottom;
+    background-color: white;
+    transform: scaleY(0);
+  }
   &:link,
   &:visited {
     color: white;
@@ -80,14 +93,18 @@
 
   @media (hover: hover) {
     &:hover {
-      background-color: white;
       color: var(--primary-color);
+      &::before {
+        transform: scaleY(1);
+      }
     }
   }
 
   &:active {
-    background-color: white;
     color: var(--primary-color);
+    &::before {
+      transform: scaleY(1);
+    }
   }
 
   @include breakpoint(mobile) {
@@ -113,6 +130,8 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: -8rem;
+    margin-top: -3rem;
   }
 }
 
@@ -128,5 +147,20 @@
     margin: 0;
     height: auto;
     width: 100%;
+  }
+}
+
+.park__text {
+  max-width: 44.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-transform: uppercase;
+  @include breakpoint(mobile) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 120%;
   }
 }

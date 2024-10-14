@@ -128,6 +128,19 @@
   letter-spacing: -0.01em;
   color: #6e4d31;
   transition: color 0.2s, background-color 0.2s;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    transition: transform 0.2s;
+    transform-origin: center bottom;
+    background-color: #6e4d31;
+    transform: scaleY(0);
+  }
   &:link,
   &:visited {
     color: #6e4d31;
@@ -135,13 +148,17 @@
 
   @media (hover: hover) {
     &:hover {
-      background-color: #6e4d31;
+      &::before {
+        transform: scaleY(1);
+      }
       color: white;
     }
   }
 
   &:active {
-    background-color: #6e4d31;
+    &::before {
+      transform: scaleY(1);
+    }
     color: white;
   }
 
