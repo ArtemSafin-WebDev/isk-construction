@@ -93,39 +93,39 @@ export default function intro() {
               video.setAttribute("src", blobURL);
               video.currentTime = t + 0.01;
               ScrollTrigger.refresh();
-
-              const loaderTl = hideLoader();
-
-              loaderTl.from(
-                ".intro__list-item",
-                {
-                  autoAlpha: 0,
-                  x: 50,
-                  duration: 0.6,
-                  stagger: 0.2,
-                },
-                ">+=0.4"
-              );
-              if (instance?.lines) {
-                loaderTl
-                  .from(
-                    instance?.lines,
-                    {
-                      autoAlpha: 0,
-                      y: 20,
-                      duration: 0.6,
-                      stagger: 0.1,
-                      delay: 0,
-                    },
-                    "<-=0.4"
-                  )
-                  .add(() => {
-                    instance?.revert();
-                  });
-              }
             });
         }
       }, 1000);
+
+      const loaderTl = hideLoader();
+
+      loaderTl.from(
+        ".intro__list-item",
+        {
+          autoAlpha: 0,
+          x: 50,
+          duration: 0.6,
+          stagger: 0.2,
+        },
+        ">+=0.4"
+      );
+      if (instance?.lines) {
+        loaderTl
+          .from(
+            instance?.lines,
+            {
+              autoAlpha: 0,
+              y: 20,
+              duration: 0.6,
+              stagger: 0.1,
+              delay: 0,
+            },
+            "<-=0.4"
+          )
+          .add(() => {
+            instance?.revert();
+          });
+      }
     });
   });
 }
