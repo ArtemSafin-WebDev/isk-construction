@@ -20,13 +20,25 @@ export const callAfterResize = (func: Function, delay?: number) => {
 export const hideLoader = () => {
   const loader = document.querySelector<HTMLElement>(".loader");
   const loaderLogo = document.querySelector<HTMLElement>(".loader__logo");
-
+  const progress = document.querySelector<HTMLElement>(".loader__progress");
   const tl = gsap.timeline();
 
-  tl.to(loaderLogo, {
-    autoAlpha: 0,
-    duration: 0.4,
-  });
+  tl.to(
+    progress,
+    {
+      autoAlpha: 0,
+      duration: 0.4,
+    },
+    0
+  );
+  tl.to(
+    loaderLogo,
+    {
+      autoAlpha: 0,
+      duration: 0.4,
+    },
+    0
+  );
 
   tl.to(loader, {
     duration: 0.6,

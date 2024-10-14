@@ -22,6 +22,11 @@ export default function introTwo() {
         if (instance) instance.split(options);
       });
       const canvas = document.querySelector<HTMLCanvasElement>("#bg-canvas");
+      const loaderProgress =
+        document.querySelector<HTMLElement>(".loader__progress");
+      const loaderProgressInner = document.querySelector<HTMLElement>(
+        ".loader__progress-inner"
+      );
       if (canvas) {
         const context = canvas.getContext("2d")!;
         const frameCount = 181;
@@ -42,7 +47,16 @@ export default function introTwo() {
             img.src = url;
             if (img.complete) resolve(img);
           }).then((value) => {
-            console.log("Returned value", value);
+            const progress = Math.ceil(imagesToUse.length / images.length);
+            if (loaderProgressInner)
+              loaderProgressInner.style.transform = `scaleX(${progress})`;
+            if (loaderProgress)
+              loaderProgress.setAttribute(
+                "data-progress",
+                `${progress * 100}%`
+              );
+
+            console.log("Progress", progress);
             imagesToUse.push(value);
             return value;
           });
@@ -51,22 +65,12 @@ export default function introTwo() {
         await Promise.all(images);
         canvas.width = 1500;
         canvas.height = 938;
-        // const img = new Image();
-        // img.src = currentFrame(1);
-        // img.onload = function () {
-        //   context.drawImage(img, 0, 0);
-        // };
 
         imagesToUse.sort((a, b) => {
           const aSrc = Number(a.src.split(".").at(-2));
           const bSrc = Number(b.src.split(".").at(-2));
 
-          console.log("aSrc", aSrc);
-          console.log("bSrc", bSrc);
           return aSrc - bSrc;
-        });
-        imagesToUse.forEach((img, index) => {
-          console.log(`Index ${index} Src: ${img.src} `);
         });
 
         const obj = { num: 0 };
@@ -89,10 +93,8 @@ export default function introTwo() {
           num: frameCount - 1,
           ease: "steps(" + (frameCount - 1) + ")",
           onUpdate: () => {
-            console.log("On update", obj.num);
-
             const image = imagesToUse[obj.num];
-            console.log("Image", image);
+
             context.clearRect(0, 0, canvas.width, canvas.height);
             context.drawImage(image, 0, 0);
           },
