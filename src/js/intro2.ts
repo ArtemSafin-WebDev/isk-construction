@@ -26,32 +26,53 @@ export default function introTwo() {
         const context = canvas.getContext("2d")!;
         const frameCount = 181;
         let images: Array<Promise<HTMLImageElement>> = [];
+        let imagesToUse: HTMLImageElement[] = [];
         const currentFrame = (index: number) =>
-          `/images/sprite/logo-isk-logo.80.${index + 1}.webp`;
-        for (let i = 1; i < frameCount; i++) {
+          `/images/sprite/logo-isk-logo.80.${index}.webp`;
+        for (let i = 1; i <= frameCount; i++) {
           const url = currentFrame(i);
           const image = new Promise<HTMLImageElement>((resolve, reject) => {
             let img = new Image();
-            img.addEventListener("load", () => resolve(img));
+            img.addEventListener("load", () => {
+              resolve(img);
+            });
             img.addEventListener("error", () => {
               reject(new Error(`Failed to load image's URL: ${url}`));
             });
             img.src = url;
             if (img.complete) resolve(img);
+          }).then((value) => {
+            console.log("Returned value", value);
+            imagesToUse.push(value);
+            return value;
           });
           images.push(image);
         }
         await Promise.all(images);
         canvas.width = 1500;
         canvas.height = 938;
-        const img = new Image();
-        img.src = currentFrame(0);
-        img.onload = function () {
-          context.drawImage(img, 0, 0);
-        };
-        console.log("All images loaded", images);
+        // const img = new Image();
+        // img.src = currentFrame(1);
+        // img.onload = function () {
+        //   context.drawImage(img, 0, 0);
+        // };
+
+        imagesToUse.sort((a, b) => {
+          const aSrc = Number(a.src.split(".").at(-2));
+          const bSrc = Number(b.src.split(".").at(-2));
+
+          console.log("aSrc", aSrc);
+          console.log("bSrc", bSrc);
+          return aSrc - bSrc;
+        });
+        imagesToUse.forEach((img, index) => {
+          console.log(`Index ${index} Src: ${img.src} `);
+        });
 
         const obj = { num: 0 };
+
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(imagesToUse[0], 0, 0);
 
         let tl = gsap.timeline({
           defaults: { duration: 1 },
@@ -65,16 +86,15 @@ export default function introTwo() {
         });
 
         tl.to(obj, {
-          num: frameCount,
-          ease: "steps(" + frameCount + ")",
+          num: frameCount - 1,
+          ease: "steps(" + (frameCount - 1) + ")",
           onUpdate: () => {
             console.log("On update", obj.num);
-            const img = new Image();
-            img.src = currentFrame(obj.num);
-            img.onload = function () {
-              context.clearRect(0, 0, canvas.width, canvas.height);
-              context.drawImage(img, 0, 0);
-            };
+
+            const image = imagesToUse[obj.num];
+            console.log("Image", image);
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(image, 0, 0);
           },
         });
 
