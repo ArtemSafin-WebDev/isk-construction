@@ -39,20 +39,20 @@
     min-height: 73rem;
     min-height: min(100svh, 73rem);
   }
-  &::before {
-    content: "";
-    width: 4.7rem;
-    height: 3.8rem;
-    display: block;
-    background-image: url("../images/quotes.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
 
-    @include breakpoint(mobile) {
-      width: 3.5rem;
-      height: 2.8rem;
-    }
+.ceo__quotes {
+  width: 4.7rem;
+  height: 3.8rem;
+  display: block;
+  background-image: url("../images/quotes.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @include breakpoint(mobile) {
+    width: 3.5rem;
+    height: 2.8rem;
   }
 }
 

@@ -16,3 +16,24 @@ export const callAfterResize = (func: Function, delay?: number) => {
   window.addEventListener("resize", handler);
   return handler; // in case you want to window.removeEventListener() later
 };
+
+export const hideLoader = () => {
+  const loader = document.querySelector<HTMLElement>(".loader");
+  const loaderLogo = document.querySelector<HTMLElement>(".loader__logo");
+
+  const tl = gsap.timeline();
+
+  tl.to(loaderLogo, {
+    autoAlpha: 0,
+    duration: 0.4,
+  });
+
+  tl.to(loader, {
+    duration: 0.6,
+    clipPath: "inset(0 0 100% 0)",
+  }).add(() => {
+    loader?.remove();
+  });
+
+  return tl;
+};

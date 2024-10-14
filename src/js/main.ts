@@ -3,23 +3,29 @@ import "../scss/style.scss";
 import competence from "./competence";
 import sectors from "./sectors";
 import experience from "./experience";
-import videoScrub from "./videoScrub";
+
 import header from "./header";
 import smoothScrolling from "./smoothScrolling";
 import partners from "./partners";
 import since from "./since";
 import homeNews from "./homeNews";
+import intro from "./intro";
+import ceo from "./ceo";
+import park from "./park";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
+  intro();
   header();
   competence();
   sectors();
   experience();
-  videoScrub();
+
   partners();
   since();
   homeNews();
+  ceo();
+  park();
 });
 
 window.addEventListener("load", () => {

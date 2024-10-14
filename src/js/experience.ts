@@ -26,7 +26,6 @@ export default function experience() {
       if (secondaryHeading) instance = new SplitType(secondaryHeading, options);
       let animationPlayed = false;
       function createTimeline() {
-        console.log("Timeline created");
         ctx && ctx.revert();
         ctx = gsap.context(() => {
           instance?.split(options);

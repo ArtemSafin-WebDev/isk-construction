@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "@studio-freight/lenis";
-import { isMobile, isSafari, isTouch } from "./utils";
+import { isMobile, isTouch } from "./utils";
 
 gsap.registerPlugin(ScrollTrigger);
 
