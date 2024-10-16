@@ -107,6 +107,7 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
+  transition: color 0.2s;
   @include breakpoint(mobile) {
     text-align: center;
     padding: 2.6rem 0;

@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "ИСК",
+  "short_name": "ИСК",
   "icons": [
     {
       "src": "/images/favicon/web-app-manifest-192x192.png",
