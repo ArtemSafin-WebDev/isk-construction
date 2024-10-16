@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType, { SplitTypeOptions } from "split-type";
-import { callAfterResize } from "./utils";
+import { animateLoaderSpinner, callAfterResize } from "./utils";
 import { hideLoader } from "./utils";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,16 +22,14 @@ export default function introTwo() {
         if (instance) instance.split(options);
       });
       const canvas = document.querySelector<HTMLCanvasElement>("#bg-canvas");
-      const loaderProgress =
-        document.querySelector<HTMLElement>(".loader__progress");
-      const loaderProgressInner = document.querySelector<HTMLElement>(
-        ".loader__progress-inner"
-      );
+
       if (canvas) {
         const context = canvas.getContext("2d")!;
         const frameCount = 181;
         let images: Array<Promise<HTMLImageElement>> = [];
         let imagesToUse: HTMLImageElement[] = [];
+
+        const spinnerTl = animateLoaderSpinner();
         const currentFrame = (index: number) =>
           `/images/sprite/logo-isk-logo.80.${index}.webp`;
         for (let i = 1; i <= frameCount; i++) {
@@ -47,14 +45,8 @@ export default function introTwo() {
             img.src = url;
             if (img.complete) resolve(img);
           }).then((value) => {
-            const progress = Math.ceil(imagesToUse.length / images.length);
-            if (loaderProgressInner)
-              loaderProgressInner.style.transform = `scaleX(${progress})`;
-            if (loaderProgress)
-              loaderProgress.setAttribute(
-                "data-progress",
-                `${progress * 100}%`
-              );
+            const progress = imagesToUse.length / images.length;
+            spinnerTl.progress(progress);
 
             console.log("Progress", progress);
             imagesToUse.push(value);

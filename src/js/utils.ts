@@ -17,32 +17,65 @@ export const callAfterResize = (func: Function, delay?: number) => {
   return handler; // in case you want to window.removeEventListener() later
 };
 
+export const animateLoaderSpinner = (paused: boolean = false) => {
+  const loader = document.querySelector<HTMLElement>(".loader");
+  const layers = Array.from(
+    document.querySelectorAll<HTMLElement>(".loader__spinner-layer")
+  );
+  const selectLayer = (index: number) => {
+    layers.forEach((layer) => layer.classList.remove("active"));
+    layers[index]?.classList.add("active");
+  };
+  const tl = gsap.timeline({
+    paused,
+  });
+
+  tl.fromTo(
+    loader,
+    {
+      "--progress": 0,
+    },
+    {
+      "--progress": 100,
+      duration: 4,
+      ease: "linear",
+    }
+  )
+    .add(() => {
+      selectLayer(1);
+    }, 1)
+    .add(() => {
+      selectLayer(2);
+    }, 2)
+    .add(() => {
+      selectLayer(3);
+    }, 3);
+  return tl;
+};
+
 export const hideLoader = () => {
   const loader = document.querySelector<HTMLElement>(".loader");
+  const loaderInner = document.querySelector<HTMLElement>(".loader__inner");
   const loaderLogo = document.querySelector<HTMLElement>(".loader__logo");
-  const progress = document.querySelector<HTMLElement>(".loader__progress");
+
   const tl = gsap.timeline();
 
-  tl.to(
-    progress,
-    {
-      autoAlpha: 0,
-      duration: 0.4,
-    },
-    0
-  );
-  tl.to(
-    loaderLogo,
-    {
-      autoAlpha: 0,
-      duration: 0.4,
-    },
-    0
-  );
+  tl.to(loaderInner, {
+    autoAlpha: 0,
+    duration: 0.2,
+    delay: 0.2,
+  });
+
+  tl.to(loaderLogo, {
+    yPercent: -100,
+    duration: 0.6,
+    ease: "power2.out",
+  });
 
   tl.to(loader, {
-    duration: 0.6,
-    clipPath: "inset(0 0 100% 0)",
+    duration: 1,
+    yPercent: -100,
+    ease: "power2.in",
   }).add(() => {
     loader?.remove();
   });
