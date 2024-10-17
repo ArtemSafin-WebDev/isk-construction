@@ -29,7 +29,7 @@ export default function introTwo() {
         let images: Array<Promise<HTMLImageElement>> = [];
         let imagesToUse: HTMLImageElement[] = [];
 
-        const spinnerTl = animateLoaderSpinner();
+        const spinnerTl = animateLoaderSpinner(true);
         const currentFrame = (index: number) =>
           `/images/sprite/logo-isk-logo.80.${index}.webp`;
         for (let i = 1; i <= frameCount; i++) {
@@ -54,8 +54,8 @@ export default function introTwo() {
           images.push(image);
         }
         await Promise.all(images);
-        canvas.width = 1500;
-        canvas.height = 938;
+        canvas.width = 1800;
+        canvas.height = 1126;
 
         imagesToUse.sort((a, b) => {
           const aSrc = Number(a.src.split(".").at(-2));
