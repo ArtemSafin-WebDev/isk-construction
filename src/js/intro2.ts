@@ -45,11 +45,10 @@ export default function introTwo() {
             img.src = url;
             if (img.complete) resolve(img);
           }).then((value) => {
-            const progress = imagesToUse.length / images.length;
-            spinnerTl.progress(progress);
-
-            console.log("Progress", progress);
             imagesToUse.push(value);
+            const progress = imagesToUse.length / images.length;
+            console.log("Progress", progress);
+            spinnerTl.progress(progress);
             return value;
           });
           images.push(image);
