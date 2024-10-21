@@ -24,12 +24,12 @@
   visibility: hidden;
   transition: opacity 0.4s, visibility 0s linear 0.4s;
   z-index: 5;
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  }
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   inset: 0;
+  //   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  // }
 
   &.active {
     opacity: 1;
