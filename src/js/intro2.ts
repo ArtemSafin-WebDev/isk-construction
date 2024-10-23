@@ -25,7 +25,7 @@ export default function introTwo() {
 
       if (canvas) {
         const context = canvas.getContext("2d")!;
-        const frameCount = 181;
+        const frameCount = 160;
         let images: Array<Promise<HTMLImageElement>> = [];
         let imagesToUse: HTMLImageElement[] = [];
 
