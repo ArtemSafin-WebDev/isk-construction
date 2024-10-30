@@ -48,6 +48,9 @@
     width: 100%;
     object-position: 30% -17%;
 
+    width: 115%;
+    object-position: 30% 4%;
+
     @include breakpoint(mobile) {
       width: 100%;
       object-position: 35% 10%;
