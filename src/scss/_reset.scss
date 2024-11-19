@@ -15,6 +15,11 @@ html {
   scrollbar-gutter: stable;
   scroll-behavior: smooth;
   scroll-padding-top: 10rem;
+
+  @media (min-resolution: 2x) {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   @include breakpoint(mobile) {
     font-size: 10px;
   }
@@ -221,8 +226,9 @@ select:-webkit-autofill:focus {
 .validation-error {
   font-size: 1.6rem;
   line-height: 140%;
-  margin-top: 1rem;
-  color: #f60a18;
+  margin-top: 0.7rem;
+  color: white;
+
   @include breakpoint(mobile) {
     font-size: 1.4rem;
     font-style: normal;

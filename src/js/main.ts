@@ -3,22 +3,24 @@ import "../scss/style.scss";
 import competence from "./competence";
 import sectors from "./sectors";
 import experience from "./experience";
-
 import header from "./header";
 import smoothScrolling from "./smoothScrolling";
 import partners from "./partners";
 import since from "./since";
 import homeNews from "./homeNews";
-// import intro from "./intro";
 import ceo from "./ceo";
 import park from "./park";
-import introTwo from "./intro2";
 import footer from "./footer";
+import intro from "./intro";
+import projects from "./projects";
+import consultation from "./consultation";
+import forms from "./forms";
+import clearInput from "./clearInput";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
-  // intro();
-  introTwo();
+  forms();
+  intro();
   header();
   competence();
   sectors();
@@ -30,6 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
   ceo();
   park();
   footer();
+  projects();
+  clearInput();
+  consultation();
 });
 
 window.addEventListener("load", () => {

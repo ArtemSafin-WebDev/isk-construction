@@ -1,0 +1,130 @@
+.about-intro {
+  position: relative;
+  z-index: 4;
+  color: white;
+  background-color: var(--bg-color);
+  @include blockWrapper;
+}
+
+.about-intro__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0) 73.8%,
+        rgba(0, 0, 0, 0.12) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0) 79.9%, rgba(0, 0, 0, 0.15) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+}
+
+.about-intro__bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.about-intro__content {
+  @include blockContent;
+  min-height: 96rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+  grid-template-areas: "nothing heading" "scroll text";
+  padding-top: 18rem;
+  padding-bottom: 4rem;
+  grid-template-rows: 1fr auto;
+
+  @include breakpoint(mobile) {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 12.6rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.about-intro__heading {
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.4rem;
+  text-transform: uppercase;
+  grid-area: heading;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.08rem */
+    letter-spacing: -0.17rem;
+    text-transform: uppercase;
+  }
+}
+
+.about-intro__scroll {
+  grid-area: scroll;
+  align-self: flex-end;
+  justify-self: flex-start;
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 1px solid white;
+  transition: border-color 0.2s, background-color 0.2s;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: white;
+
+      svg {
+        fill: var(--primary-color);
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: white;
+    transition: fill 0.2s;
+  }
+}
+
+.about-intro__text {
+  grid-area: text;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  align-self: flex-end;
+  max-width: 67rem;
+
+  @include breakpoint(mobile) {
+    margin-top: auto;
+    max-width: 27.5rem;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    align-self: stretch;
+  }
+}

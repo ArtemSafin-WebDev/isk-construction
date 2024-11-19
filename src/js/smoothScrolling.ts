@@ -2,8 +2,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "@studio-freight/lenis";
 import { isMobile, isTouch } from "./utils";
+import { ScrollToPlugin } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 export default function smoothScrolling() {
   let lenis: Lenis | null = null;
@@ -22,4 +23,21 @@ export default function smoothScrolling() {
   });
 
   gsap.ticker.lagSmoothing(0);
+
+  document.addEventListener("click", (event) => {
+    const target = event.target as HTMLElement;
+    const link = (target.matches("a") ||
+      target.closest("a")) as HTMLAnchorElement | null;
+    console.log("Link", link);
+    if (!link || !link.hash) return;
+    event.preventDefault();
+    console.log("Hash", link.hash);
+    gsap.to(window, {
+      duration: 0.6,
+      scrollTo: {
+        y: link.hash,
+        autoKill: true,
+      },
+    });
+  });
 }
