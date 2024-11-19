@@ -2,12 +2,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType, { SplitTypeOptions } from "split-type";
 import { callAfterResize } from "./utils";
-import Validator from "./classes/Validator";
+
 gsap.registerPlugin(ScrollTrigger);
 
-export default function consultation() {
+export default function career() {
   const elements = Array.from(
-    document.querySelectorAll<HTMLElement>(".consultation")
+    document.querySelectorAll<HTMLElement>(".career")
   );
 
   elements.forEach((element) => {
@@ -17,7 +17,7 @@ export default function consultation() {
         types: "lines,words",
       };
       const secondaryHeading = element.querySelector<HTMLElement>(
-        ".consultation__secondary-heading"
+        ".career__secondary-heading"
       );
       let instance: SplitType | null = null;
       let prevWidth = window.innerWidth;
@@ -40,16 +40,7 @@ export default function consultation() {
           });
 
           tl.from(
-            ".consultation__heading",
-            {
-              autoAlpha: 0,
-              duration: 0.4,
-              y: 20,
-            },
-            0
-          );
-          tl.from(
-            ".consultation__image",
+            ".career__heading",
             {
               autoAlpha: 0,
               duration: 0.4,
@@ -71,25 +62,23 @@ export default function consultation() {
             );
           }
 
-          tl.from(".consultation__secondary-text", {
+          tl.from(".career__text", {
             autoAlpha: 0,
             duration: 0.4,
             y: 20,
           });
-          tl.from(".consultation__form", {
+          tl.from(".career__link", {
             autoAlpha: 0,
             duration: 0.4,
             y: 20,
           });
-          tl.from(
-            ".consultation__contacts",
-            {
-              autoAlpha: 0,
-              duration: 0.4,
-              y: 20,
-            },
-            "<"
-          );
+
+          tl.from(".career__list-item", {
+            autoAlpha: 0,
+            x: 50,
+            duration: 0.6,
+            stagger: 0.2,
+          });
 
           return () => {
             if (instance) instance.revert();

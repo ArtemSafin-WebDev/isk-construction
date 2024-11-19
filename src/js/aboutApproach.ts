@@ -2,12 +2,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType, { SplitTypeOptions } from "split-type";
 import { callAfterResize } from "./utils";
-import Validator from "./classes/Validator";
+
 gsap.registerPlugin(ScrollTrigger);
 
-export default function consultation() {
+export default function aboutApproach() {
   const elements = Array.from(
-    document.querySelectorAll<HTMLElement>(".consultation")
+    document.querySelectorAll<HTMLElement>(".about-approach")
   );
 
   elements.forEach((element) => {
@@ -17,7 +17,7 @@ export default function consultation() {
         types: "lines,words",
       };
       const secondaryHeading = element.querySelector<HTMLElement>(
-        ".consultation__secondary-heading"
+        ".about-approach__text"
       );
       let instance: SplitType | null = null;
       let prevWidth = window.innerWidth;
@@ -40,16 +40,7 @@ export default function consultation() {
           });
 
           tl.from(
-            ".consultation__heading",
-            {
-              autoAlpha: 0,
-              duration: 0.4,
-              y: 20,
-            },
-            0
-          );
-          tl.from(
-            ".consultation__image",
+            ".about-approach__heading",
             {
               autoAlpha: 0,
               duration: 0.4,
@@ -70,26 +61,6 @@ export default function consultation() {
               0
             );
           }
-
-          tl.from(".consultation__secondary-text", {
-            autoAlpha: 0,
-            duration: 0.4,
-            y: 20,
-          });
-          tl.from(".consultation__form", {
-            autoAlpha: 0,
-            duration: 0.4,
-            y: 20,
-          });
-          tl.from(
-            ".consultation__contacts",
-            {
-              autoAlpha: 0,
-              duration: 0.4,
-              y: 20,
-            },
-            "<"
-          );
 
           return () => {
             if (instance) instance.revert();

@@ -6,6 +6,10 @@
   color: #6e4d31;
   position: relative;
   z-index: 4;
+
+  @include breakpoint(mobile) {
+    padding: 4rem 0;
+  }
 }
 
 .advantages__content {
@@ -22,6 +26,16 @@
   letter-spacing: -0.03rem;
   text-transform: uppercase;
   margin-bottom: 10rem;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+  }
 }
 
 .advantages__slider {
@@ -48,23 +62,33 @@
 
     @include breakpointMF(small-tablet) {
       display: contents;
-      //   min-height: 70rem;
-      //   display: grid;
-      //   grid-template-columns: minmax(0, 1fr);
-      //   grid-template-rows: subgrid;
-      //   grid-row: span 3;
+    }
+
+    @include breakpoint(mobile) {
+      width: 26.5rem;
     }
   }
 }
 
 .advantages__slider-card {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: subgrid;
   padding: 0 4rem;
   border-left: 1px solid rgba(#6e4d31, 0.3);
   counter-increment: ordered-list;
-  grid-row: span 3;
+
+  @include breakpointMF(small-tablet) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+  }
+
+  @include breakpoint(mobile) {
+    padding: 0 1.6rem;
+    min-height: 26.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 
   &::before {
     content: counter(ordered-list);
@@ -77,6 +101,17 @@
     text-transform: uppercase;
     grid-row: 1 / 2;
     font-family: var(--oswald);
+
+    @include breakpoint(mobile) {
+      font-size: 12rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 110%; /* 13.2rem */
+      letter-spacing: -0.6rem;
+      text-transform: uppercase;
+      margin-top: -2rem;
+      margin-bottom: auto;
+    }
   }
 }
 
@@ -90,6 +125,16 @@
   text-transform: uppercase;
   font-family: var(--oswald);
   align-self: flex-end;
+
+  @include breakpoint(mobile) {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 3.6rem */
+    letter-spacing: -0.15rem;
+    text-transform: uppercase;
+    align-self: stretch;
+  }
 }
 
 .advantages__slider-card-text {
@@ -100,4 +145,12 @@
   line-height: 120%;
   color: rgba(#6e4d31, 0.6);
   max-width: 30rem;
+
+  @include breakpoint(mobile) {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    max-width: none;
+  }
 }

@@ -16,6 +16,11 @@ import projects from "./projects";
 import consultation from "./consultation";
 import forms from "./forms";
 import clearInput from "./clearInput";
+import advantages from "./advantages";
+import career from "./career";
+import aboutNumbers from "./aboutNumbers";
+import aboutApproach from "./aboutApproach";
+import letters from "./letters";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -35,6 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
   projects();
   clearInput();
   consultation();
+  aboutNumbers();
+  aboutApproach();
+  advantages();
+  career();
+  letters();
 });
 
 window.addEventListener("load", () => {

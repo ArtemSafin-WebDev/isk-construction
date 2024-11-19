@@ -1,0 +1,231 @@
+.career {
+  position: relative;
+  z-index: 4;
+  background-color: #6e4d31;
+  color: white;
+  @include blockWrapper;
+}
+
+.career__content {
+  @include blockContent;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 2rem;
+  padding: 4rem 0;
+  min-height: 96rem;
+
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    min-height: auto;
+    gap: 0;
+  }
+}
+
+.career__image {
+  position: absolute;
+  right: 0;
+  height: 90%;
+  width: auto;
+  max-width: none;
+  z-index: -1;
+  pointer-events: none;
+
+  @include breakpoint(mobile) {
+    display: block;
+    width: 100%;
+    max-width: none;
+    position: static;
+    margin-bottom: 3rem;
+  }
+}
+
+.career__left-col {
+  grid-column: 1 / 5;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  @include breakpoint(mobile) {
+    display: contents;
+  }
+}
+
+.career__heading {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+  }
+}
+
+.career__text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  @include breakpoint(mobile) {
+    gap: 2.4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.career__secondary-heading {
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 9.6rem */
+  letter-spacing: -0.4rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+  @include breakpoint(mobile) {
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.08rem */
+    letter-spacing: -0.17rem;
+    text-transform: uppercase;
+  }
+}
+
+.career__text {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+
+  @include breakpoint(mobile) {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+  }
+}
+
+.career__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1.6rem 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+  border: 1px solid white;
+  border-radius: 7rem;
+  align-self: flex-start;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+
+  @include breakpoint(mobile) {
+    padding: 1.4rem 2rem;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    transition: transform 0.2s;
+    transform-origin: center bottom;
+    background-color: white;
+    transform: scaleY(0);
+  }
+  &:link,
+  &:visited {
+    color: white;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: #977e53;
+      &::before {
+        transform: scaleY(1);
+      }
+    }
+  }
+
+  &:active {
+    color: #977e53;
+    &::before {
+      transform: scaleY(1);
+    }
+  }
+}
+
+.career__list {
+  margin-top: auto;
+}
+
+.career__list-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  &:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}
+
+.career__card {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: space-between;
+  padding: 2rem 0;
+
+  @include breakpoint(mobile) {
+    padding: 1.5rem 0;
+    gap: 2rem;
+  }
+}
+
+.career__card-amount {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.125rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.1rem;
+    text-transform: uppercase;
+  }
+}
+
+.career__card-text {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+  }
+}
