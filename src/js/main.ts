@@ -26,6 +26,7 @@ import projectDescription from "./projectDescription";
 import projectVideo from "./projectVideo";
 import projectHistory from "./projectHistory";
 import projectResults from "./projectResults";
+import similarProjects from "./similarProjects";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -55,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   projectVideo();
   projectHistory();
   projectResults();
+  similarProjects();
 });
 
 window.addEventListener("load", () => {

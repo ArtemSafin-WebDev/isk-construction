@@ -231,7 +231,7 @@
   @media (hover: hover) {
     &:hover {
       .experience__slider-card-bg-image {
-        transform: scale(1.05);
+        transform: translateZ(0) scale(1.05);
       }
     }
   }
@@ -251,11 +251,13 @@
   grid-area: stack;
   position: relative;
   overflow: hidden;
+
   &::after {
     content: "";
     position: absolute;
-    inset: 0;
+    inset: -1px;
     background-color: rgba(black, 0.5);
+    transform: translateZ(0) scale(1.1);
   }
 }
 
@@ -267,6 +269,7 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.6s;
+  transform: translateZ(0) scale(1);
 }
 
 .experience__slider-card-content {
