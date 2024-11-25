@@ -144,6 +144,18 @@
     align-self: flex-end;
   }
 
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      .project-video__play-icon {
+        background-color: white;
+
+        svg {
+          fill: var(--primary-color);
+        }
+      }
+    }
+  }
+
   @include breakpoint(mobile) {
     display: block;
     grid-area: video;
@@ -160,6 +172,7 @@
   height: 11.6rem;
   border: 1px solid white;
   border-radius: 50%;
+  transition: background-color 0.2s, border-color 0.2s;
 
   @include breakpoint(mobile) {
     width: 6rem;
@@ -171,6 +184,7 @@
     width: 100%;
     height: 100%;
     fill: white;
+    transition: fill 0.2s;
 
     @include breakpoint(mobile) {
       transform: scale(1.5);
