@@ -36,7 +36,7 @@ export default function smoothScrolling() {
       duration: 0.6,
       scrollTo: {
         y: link.hash,
-        autoKill: true,
+        autoKill: false,
       },
     });
   });

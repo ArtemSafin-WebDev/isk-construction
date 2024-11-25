@@ -1,0 +1,388 @@
+.project-intro {
+  position: relative;
+  z-index: 4;
+  background: #21170f;
+  color: white;
+
+  overflow: clip;
+}
+
+.project-intro__outer {
+  @include blockWrapper;
+}
+
+.project-intro__bg {
+  position: sticky;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: -100vh;
+  top: 0;
+  left: 0;
+
+  @include breakpoint(mobile) {
+    height: 100svh;
+    margin-bottom: -100svh;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0) 74.74%,
+        rgba(0, 0, 0, 0.5) 101.67%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0) 56.56%, rgba(0, 0, 0, 0.6) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    z-index: 10;
+  }
+}
+
+.project-intro__bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-intro__content {
+  @include blockContent;
+  position: relative;
+  z-index: 10;
+}
+
+.project-intro__top {
+  min-height: min(100vh, 96rem);
+  padding-top: 18rem;
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 2rem;
+  grid-template-rows: auto 1fr;
+
+  @include breakpoint(mobile) {
+    min-height: 100vh;
+    min-height: 100svh;
+    padding-top: 11.6rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+.project-intro__back {
+  grid-column: 1 / 7;
+  grid-row: 1 / 2;
+  align-self: flex-start;
+  justify-self: flex-start;
+  padding: 1.4rem 1.8rem;
+  border-radius: 7rem;
+  border: 1px solid #fff;
+  color: white;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 2.1rem */
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s, border-color 0.2s;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+
+  @include breakpoint(mobile) {
+    padding: 0.8rem 1.4rem;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+  svg {
+    flex-shrink: 0;
+    fill: currentColor;
+    width: 0.6rem;
+    height: 1.2rem;
+
+    @include breakpoint(mobile) {
+      width: 0.4rem;
+      height: 0.8rem;
+    }
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: white;
+      color: var(--primary-color);
+    }
+  }
+}
+
+.project-intro__heading {
+  grid-row: 1 / 2;
+  grid-column: 7 / -1;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 9.6rem */
+  letter-spacing: -0.4rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.08rem */
+    letter-spacing: -0.17rem;
+    text-transform: uppercase;
+  }
+}
+
+.project-intro__scroll {
+  grid-row: 2 / 3;
+  grid-column: 1/ 7;
+  align-self: flex-end;
+  justify-self: flex-start;
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 1px solid white;
+  transition: border-color 0.2s, background-color 0.2s;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: white;
+
+      svg {
+        fill: var(--primary-color);
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: white;
+    transition: fill 0.2s;
+    animation-name: scroll-arrow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+  }
+}
+
+.project-intro__info-list {
+  grid-row: 2 / 3;
+  grid-column: 7 / 11;
+  align-self: flex-end;
+
+  @include breakpoint(mobile) {
+    align-self: stretch;
+    margin-top: auto;
+  }
+}
+
+.project-intro__info-list-item {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.project-intro__info-card {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+
+  @include breakpoint(mobile) {
+    padding: 1.5rem 0;
+  }
+}
+
+.project-intro__card-title {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 2.75rem */
+  letter-spacing: -0.125rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 2.2rem */
+    letter-spacing: -0.1rem;
+    text-transform: uppercase;
+  }
+}
+
+.project-intro__card-company {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.68rem */
+  text-transform: uppercase;
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.44rem */
+    text-transform: uppercase;
+  }
+}
+
+.project-intro__bottom {
+  padding-top: 8.1rem;
+  padding-bottom: 8rem;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 2rem;
+  min-height: 105rem;
+  grid-template-rows: auto auto;
+  grid-row-gap: 3rem;
+
+  @include breakpoint(mobile) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    min-height: 82rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+.project-intro__bottom-heading {
+  grid-column: 1 / 7;
+  grid-row: 1 / 2;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 2.1rem */
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+}
+
+.project-intro__bottom-secondary-heading {
+  grid-row: 1 / 2;
+  grid-column: 7 / -1;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 7.2rem */
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.08rem */
+    letter-spacing: -0.17rem;
+    text-transform: uppercase;
+  }
+}
+
+.project-intro__numbers-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+  grid-row-gap: 4rem;
+  grid-column: 7 / -1;
+  grid-row: 2 / 3;
+  align-self: flex-end;
+
+  @include breakpoint(mobile) {
+    grid-gap: 2rem;
+    margin-top: auto;
+    align-self: stretch;
+  }
+}
+
+.project-intro__numbers-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border-top: 1px solid rgba(#d9d9d9, 0.2);
+  padding-top: 2.4rem;
+  @include breakpoint(mobile) {
+    gap: 2rem;
+
+    padding-top: 1.2rem;
+  }
+}
+
+.project-intro__numbers-card-amount {
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 12rem */
+  letter-spacing: -0.5rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.8rem */
+    letter-spacing: -0.2rem;
+    text-transform: uppercase;
+  }
+  span {
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.4rem;
+    text-transform: uppercase;
+
+    @include breakpoint(mobile) {
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%;
+      letter-spacing: -0.15rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.project-intro__numbers-card-text {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.68rem */
+  text-transform: uppercase;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.44rem */
+    text-transform: uppercase;
+  }
+}

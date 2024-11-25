@@ -1,0 +1,216 @@
+.project-video {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+  background-color: #21170f;
+  color: var(--text-color);
+  @include breakpointMF(small-tablet) {
+    &::before {
+      content: "";
+      display: block;
+      padding-bottom: 50%;
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    display: block;
+    padding: 4rem var(--content-padding);
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "heading" "secheading" "video" "text";
+    grid-gap: 4rem;
+  }
+}
+
+.project-video__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  @include breakpoint(mobile) {
+    position: relative;
+    aspect-ratio: 335 / 244;
+    grid-area: video;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    background: linear-gradient(
+        359deg,
+        rgba(0, 0, 0, 0) 66.24%,
+        rgba(0, 0, 0, 0.3) 99.37%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0) 56.56%, rgba(0, 0, 0, 0.6) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
+
+    @include breakpoint(mobile) {
+      background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.25) 0%,
+        rgba(0, 0, 0, 0.25) 100%
+      );
+    }
+  }
+}
+
+.project-video__bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-video__content {
+  @include breakpointMF(small-tablet) {
+    @include blockContent;
+    grid-row: 1 / 2;
+    z-index: 6;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-gap: 2rem;
+    grid-template-rows: auto 1fr;
+  }
+
+  @include breakpoint(mobile) {
+    display: contents;
+  }
+}
+
+.project-video__heading {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+
+  @include breakpointMF(small-tablet) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 7;
+  }
+
+  @include breakpoint(mobile) {
+    grid-area: heading;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+}
+
+.project-video__secondary-heading {
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 7.2rem */
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpointMF(small-tablet) {
+    grid-column: 7 / -1;
+    grid-row: 1 / 2;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.08rem */
+    letter-spacing: -0.17rem;
+    text-transform: uppercase;
+  }
+}
+
+.project-video__play {
+  @include breakpointMF(small-tablet) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 7;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    align-self: flex-end;
+  }
+
+  @include breakpoint(mobile) {
+    display: block;
+    grid-area: video;
+    z-index: 12;
+
+    display: grid;
+    place-items: center;
+  }
+}
+
+.project-video__play-icon {
+  flex-shrink: 0;
+  width: 11.6rem;
+  height: 11.6rem;
+  border: 1px solid white;
+  border-radius: 50%;
+
+  @include breakpoint(mobile) {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: white;
+
+    @include breakpoint(mobile) {
+      transform: scale(1.5);
+    }
+  }
+}
+
+.project-video__play-info {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 2.75rem */
+  letter-spacing: -0.125rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.project-video__description {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  color: rgba(white, 0.7);
+  align-self: flex-end;
+
+  @include breakpointMF(small-tablet) {
+    grid-row: 2 / 3;
+    grid-column: 7 / 10;
+  }
+
+  @include breakpoint(mobile) {
+    align-self: stretch;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    grid-area: text;
+  }
+}

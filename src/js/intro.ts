@@ -103,6 +103,17 @@ export default function intro() {
 
         const loaderTl = hideLoader();
 
+        const fadeFirstOrder = Array.from(
+          element.querySelectorAll<HTMLElement>(".js-intro-fade-first-order")
+        );
+        if (fadeFirstOrder.length) {
+          loaderTl.from(fadeFirstOrder, {
+            autoAlpha: 0,
+            duration: 0.6,
+            stagger: 0.2,
+          });
+        }
+
         const secondaryItems = Array.from(
           element.querySelectorAll<HTMLElement>(".js-intro-secondary-item")
         );
@@ -116,6 +127,20 @@ export default function intro() {
               stagger: 0.2,
             },
             ">+=0.4"
+          );
+        }
+        const fadeSecondOrder = Array.from(
+          element.querySelectorAll<HTMLElement>(".js-intro-fade-second-order")
+        );
+        if (fadeSecondOrder.length) {
+          loaderTl.from(
+            fadeSecondOrder,
+            {
+              autoAlpha: 0,
+              duration: 0.6,
+              stagger: 0.2,
+            },
+            "<"
           );
         }
 

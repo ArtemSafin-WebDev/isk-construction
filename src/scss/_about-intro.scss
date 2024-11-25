@@ -37,7 +37,7 @@
 }
 .about-intro__content {
   @include blockContent;
-  min-height: 96rem;
+  min-height: min(100vh, 96rem);
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-gap: 2rem;

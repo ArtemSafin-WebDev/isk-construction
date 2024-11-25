@@ -21,6 +21,11 @@ import career from "./career";
 import aboutNumbers from "./aboutNumbers";
 import aboutApproach from "./aboutApproach";
 import letters from "./letters";
+import projectIntro from "./projectIntro";
+import projectDescription from "./projectDescription";
+import projectVideo from "./projectVideo";
+import projectHistory from "./projectHistory";
+import projectResults from "./projectResults";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -45,6 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
   advantages();
   career();
   letters();
+  projectIntro();
+  projectDescription();
+  projectVideo();
+  projectHistory();
+  projectResults();
 });
 
 window.addEventListener("load", () => {
