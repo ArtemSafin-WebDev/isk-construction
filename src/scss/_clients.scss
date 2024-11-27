@@ -68,8 +68,9 @@
     padding-top: 2rem;
     padding-bottom: 4rem;
     grid-template-columns: 1fr auto;
-    grid-gap: 3rem;
-    grid-template-areas: "counter logo" "title title";
+    grid-gap: 2rem;
+    grid-template-areas: "title logo" "title logo";
+    grid-row-gap: 1.6rem;
   }
   &::before {
     content: counter(ordered-list, decimal-leading-zero);
@@ -87,13 +88,7 @@
     }
 
     @include breakpoint(mobile) {
-      grid-area: counter;
-      font-size: 2rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 120%; /* 2.4rem */
-      letter-spacing: -0.06rem;
-      text-transform: uppercase;
+      display: none;
     }
   }
 }
@@ -182,6 +177,8 @@
 
   @include breakpoint(mobile) {
     grid-area: logo;
+    width: 7rem;
+    height: 7rem;
   }
 }
 
