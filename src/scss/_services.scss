@@ -1,0 +1,215 @@
+.services {
+  @include blockWrapper;
+  padding-top: 25rem;
+  position: relative;
+  z-index: 4;
+  background-color: var(--bg-color);
+  color: white;
+
+  @include breakpoint(mobile) {
+    padding-top: 12.6rem;
+  }
+}
+
+.services__content {
+  @include blockContent;
+  padding-bottom: 8rem;
+  border-bottom: 1px solid rgba(white, 0.15);
+
+  @include breakpoint(mobile) {
+    padding-bottom: 4rem;
+  }
+}
+
+.services__top-row {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 8rem;
+
+  @include breakpoint(mobile) {
+    grid-template-columns: 1fr auto;
+    grid-gap: 2rem;
+    grid-row-gap: 3.2rem;
+    margin-bottom: 4rem;
+    grid-template-areas: "heading count" "text text";
+  }
+}
+
+.services__heading {
+  grid-column: 1 / 7;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 10rem */
+  letter-spacing: -0.5rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    grid-area: heading;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.8rem */
+    letter-spacing: -0.2rem;
+    text-transform: uppercase;
+  }
+}
+
+.services__text {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  grid-column: 7 / 11;
+  max-width: 53rem;
+
+  @include breakpoint(mobile) {
+    grid-area: text;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    max-width: 28rem;
+  }
+}
+
+.services__count {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 2.1rem */
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+  color: #977e53;
+  justify-self: flex-end;
+  grid-column: 11 / -1;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+    grid-area: count;
+    margin-top: 0.5rem;
+  }
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-gap: 2rem;
+  @include breakpoint(mobile) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+.services__list-item {
+  display: flex;
+  flex-direction: column;
+
+  @include breakpointMF(small-tablet) {
+    grid-column: span 2;
+    &--wide {
+      grid-column: span 3;
+    }
+  }
+
+  &::before {
+    display: none;
+  }
+}
+
+.services__card {
+  flex-grow: 1;
+  background: #6e4d31;
+  color: white;
+  min-height: 56rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 3.2rem;
+  z-index: 1;
+
+  @include breakpoint(mobile) {
+    padding: 2rem;
+    min-height: auto;
+    aspect-ratio: 1 / 1;
+    gap: 2rem;
+  }
+  &:link,
+  &:visited {
+    color: white;
+  }
+  &::before {
+    content: counter(ordered-list, decimal-leading-zero);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 3.6rem */
+    letter-spacing: -0.09rem;
+    text-transform: uppercase;
+    font-family: var(--oswald);
+    margin-bottom: auto;
+
+    @include breakpoint(mobile) {
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 2.4rem */
+      letter-spacing: -0.06rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.services__card-image {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services__card-title {
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 7.2rem */
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 3.6rem */
+    letter-spacing: -0.15rem;
+    text-transform: uppercase;
+  }
+}
+
+.services__card-desc {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  color: rgba(white, 0.7);
+  max-width: 45rem;
+
+  @include breakpoint(mobile) {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+  }
+}
