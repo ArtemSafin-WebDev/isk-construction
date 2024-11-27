@@ -30,7 +30,6 @@ export default function letters() {
         onLeave: (elements) =>
           gsap.fromTo(elements, { opacity: 1 }, { opacity: 0, duration: 0.4 }),
       });
-      //   ScrollTrigger.refresh();
     });
 
     const ctx = gsap.context(() => {

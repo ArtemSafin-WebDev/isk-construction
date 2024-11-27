@@ -117,9 +117,14 @@ export default function intro() {
         const secondaryItems = Array.from(
           element.querySelectorAll<HTMLElement>(".js-intro-secondary-item")
         );
-        if (secondaryItems.length) {
+
+        const secondaryItemsNotHidden = secondaryItems.filter((item) => {
+          const visible = window.getComputedStyle(item).display !== "none";
+          return visible;
+        });
+        if (secondaryItemsNotHidden.length) {
           loaderTl.from(
-            ".js-intro-secondary-item",
+            secondaryItemsNotHidden,
             {
               autoAlpha: 0,
               x: 50,

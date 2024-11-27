@@ -3,6 +3,7 @@ import projects from "./pages-data/projects";
 import about from "./pages-data/about";
 import project from "./pages-data/project";
 import clients from "./pages-data/clients";
+import certificates from "./pages-data/certificates";
 
 const pagesConfig = {
   ...home,
@@ -10,6 +11,7 @@ const pagesConfig = {
   ...about,
   ...project,
   ...clients,
+  ...certificates,
 };
 
 export default pagesConfig;

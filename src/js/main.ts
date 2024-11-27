@@ -28,6 +28,7 @@ import projectHistory from "./projectHistory";
 import projectResults from "./projectResults";
 import similarProjects from "./similarProjects";
 import projectGallery from "./projectGallery";
+import certificates from "./certificates";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -59,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
   projectResults();
   similarProjects();
   projectGallery();
+  certificates();
 });
 
 window.addEventListener("load", () => {
