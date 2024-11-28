@@ -30,6 +30,8 @@ import similarProjects from "./similarProjects";
 import projectGallery from "./projectGallery";
 import certificates from "./certificates";
 import fancybox from "./fancybox";
+import subjects from "./subjects";
+import sectorAdvantages from "./sectorAdvantages";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -62,6 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
   similarProjects();
   projectGallery();
   certificates();
+  subjects();
+  sectorAdvantages();
 });
 
 window.addEventListener("load", () => {

@@ -4,6 +4,7 @@ import about from "./pages-data/about";
 import project from "./pages-data/project";
 import clients from "./pages-data/clients";
 import certificates from "./pages-data/certificates";
+import sector from "./pages-data/sector";
 
 const pagesConfig = {
   ...home,
@@ -12,6 +13,7 @@ const pagesConfig = {
   ...project,
   ...clients,
   ...certificates,
+  ...sector,
 };
 
 export default pagesConfig;

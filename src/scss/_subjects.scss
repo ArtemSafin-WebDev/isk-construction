@@ -1,0 +1,105 @@
+.subjects {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+  color: white;
+  background-color: var(--bg-color);
+  padding-top: 13rem;
+  padding-bottom: 11.4rem;
+
+  @include breakpoint(mobile) {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.subjects__content {
+  @include blockContent;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+.subjects__heading {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 2.1rem */
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+  color: #977e53;
+  grid-column: 1 / 2;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+}
+
+.subjects__list {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 2rem;
+  grid-row-gap: 0;
+
+  @include breakpoint(mobile) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.subjects__list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.subjects__card {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  border-top: 1px solid rgba(#d9d9d9, 0.2);
+  gap: 5.6rem;
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint(mobile) {
+    gap: 2.4rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.subjects__card-icon {
+  width: 5.2rem;
+  height: 5.2rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.subjects__card-title {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 3.6rem */
+  letter-spacing: -0.09rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+  padding-right: 3rem;
+
+  @include breakpoint(mobile) {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 2.4rem */
+    letter-spacing: -0.06rem;
+    text-transform: uppercase;
+  }
+}

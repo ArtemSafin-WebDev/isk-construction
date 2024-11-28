@@ -12,6 +12,10 @@
   flex-direction: column;
   padding-bottom: 8rem;
 
+  &--large-top-padding {
+    padding-top: 8rem;
+  }
+
   @include breakpoint(mobile) {
     padding: 4rem 0;
   }

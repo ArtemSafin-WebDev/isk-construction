@@ -62,9 +62,9 @@ export default function projectResults() {
             ".project-results__image",
             {
               autoAlpha: 0,
-              duration: 0.4,
-
-              y: 20,
+              duration: 1.4,
+              xPercent: 30,
+              ease: "power3.out",
             },
             ">-=0.3"
           );

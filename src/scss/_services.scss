@@ -136,6 +136,14 @@
   padding: 4rem;
   gap: 3.2rem;
   z-index: 1;
+  overflow: hidden;
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      .services__card-image {
+        transform: scale(1.05);
+      }
+    }
+  }
 
   @include breakpoint(mobile) {
     padding: 2rem;
@@ -177,6 +185,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.4s;
 }
 
 .services__card-title {

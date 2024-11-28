@@ -9,10 +9,10 @@
 .project-results__image {
   position: absolute;
   top: 50%;
-  width: 148.2rem;
+  width: 110rem;
   height: auto;
   transform: translateY(-50%);
-  right: -12rem;
+  right: -3rem;
   z-index: -1;
   pointer-events: none;
 
@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   gap: 5.6rem;
-  min-height: 96rem;
+  min-height: 70rem;
   @include breakpoint(mobile) {
     gap: 4rem;
     min-height: auto;
