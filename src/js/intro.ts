@@ -20,6 +20,8 @@ export default function intro() {
       let instance: SplitType | null = null;
       if (heading) instance = new SplitType(heading, options);
 
+      console.log("Heading", heading, instance);
+
       callAfterResize(() => {
         if (instance) instance.split(options);
       });
@@ -103,15 +105,67 @@ export default function intro() {
 
         const loaderTl = hideLoader();
 
+        console.log(instance?.lines);
+        if (instance?.lines) {
+          loaderTl
+            .addLabel("withHeader")
+            .from(instance?.lines, {
+              autoAlpha: 0,
+              y: 20,
+              duration: 0.6,
+              stagger: 0.1,
+            })
+            .addLabel("afterHeader")
+            .add(() => {
+              instance?.revert();
+            });
+        }
+
+        const topItems = Array.from(
+          element.querySelectorAll(".js-intro-top-item")
+        );
+
+        if (topItems.length) {
+          loaderTl.from(
+            ".js-intro-top-item",
+            {
+              autoAlpha: 0,
+              y: 30,
+              duration: 0.6,
+              stagger: 0.2,
+            },
+            "withHeader"
+          );
+        }
+
         const fadeFirstOrder = Array.from(
           element.querySelectorAll<HTMLElement>(".js-intro-fade-first-order")
         );
         if (fadeFirstOrder.length) {
-          loaderTl.from(fadeFirstOrder, {
-            autoAlpha: 0,
-            duration: 0.6,
-            stagger: 0.2,
-          });
+          loaderTl.from(
+            fadeFirstOrder,
+            {
+              autoAlpha: 0,
+              duration: 0.6,
+              stagger: 0.2,
+            },
+            "withHeader"
+          );
+        }
+
+        const fadeSecondOrder = Array.from(
+          element.querySelectorAll<HTMLElement>(".js-intro-fade-second-order")
+        );
+        if (fadeSecondOrder.length) {
+          loaderTl.from(
+            fadeSecondOrder,
+            {
+              autoAlpha: 0,
+              duration: 0.6,
+              stagger: 0.2,
+            },
+            "afterHeader"
+          );
         }
 
         const secondaryItems = Array.from(
@@ -131,57 +185,8 @@ export default function intro() {
               duration: 0.6,
               stagger: 0.2,
             },
-            ">+=0.4"
+            "afterHeader"
           );
-        }
-        const fadeSecondOrder = Array.from(
-          element.querySelectorAll<HTMLElement>(".js-intro-fade-second-order")
-        );
-        if (fadeSecondOrder.length) {
-          loaderTl.from(
-            fadeSecondOrder,
-            {
-              autoAlpha: 0,
-              duration: 0.6,
-              stagger: 0.2,
-            },
-            "<"
-          );
-        }
-
-        const topItems = Array.from(
-          element.querySelectorAll(".js-intro-top-item")
-        );
-
-        if (topItems.length) {
-          loaderTl.from(
-            ".js-intro-top-item",
-            {
-              autoAlpha: 0,
-              y: 30,
-              duration: 0.6,
-              stagger: 0.2,
-            },
-            ">+=0.4"
-          );
-        }
-
-        if (instance?.lines) {
-          loaderTl
-            .from(
-              instance?.lines,
-              {
-                autoAlpha: 0,
-                y: 20,
-                duration: 0.6,
-                stagger: 0.1,
-                delay: 0,
-              },
-              "<-=0.4"
-            )
-            .add(() => {
-              instance?.revert();
-            });
         }
       }
     });

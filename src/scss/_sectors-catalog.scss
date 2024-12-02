@@ -1,0 +1,294 @@
+.sectors-catalog {
+  @include blockWrapper;
+  padding-top: 25rem;
+  position: relative;
+  z-index: 4;
+  background-color: #21170f;
+  color: white;
+
+  @include breakpoint(mobile) {
+    padding-top: 12.6rem;
+  }
+}
+
+.sectors-catalog__content {
+  @include blockContent;
+  padding-bottom: 8rem;
+  border-bottom: 1px solid rgba(white, 0.15);
+
+  @include breakpoint(mobile) {
+    padding-bottom: 4rem;
+  }
+}
+
+.sectors-catalog__top-row {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 8rem;
+
+  @include breakpoint(mobile) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-bottom: 3.2rem;
+    grid-row-gap: 2.8rem;
+  }
+}
+
+.sectors-catalog__heading {
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 10rem */
+  letter-spacing: -0.5rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+  grid-column: 1 / 6;
+
+  @include breakpoint(mobile) {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.8rem */
+    letter-spacing: -0.2rem;
+    text-transform: uppercase;
+    grid-column: 1 / 4;
+  }
+}
+
+.sectors-catalog__text {
+  grid-column: 7 / 11;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+
+  @include breakpoint(mobile) {
+    grid-column: 1 / -1;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    max-width: 28rem;
+  }
+}
+
+.sectors-catalog__count {
+  grid-column: 12 / -1;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+  justify-self: flex-end;
+
+  @include breakpoint(mobile) {
+    grid-column: 4 / -1;
+    grid-row: 1 / 2;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+}
+
+.sectors-catalog__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectors-catalog__list-item {
+  @include breakpointMF(small-tablet) {
+    position: sticky;
+    left: 0;
+    top: 2rem;
+  }
+
+  &::before {
+    display: none;
+  }
+}
+
+.sectors-catalog__card {
+  background-color: #21170f;
+  color: #977e53;
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-areas: "image content";
+  grid-gap: 2rem;
+  border-top: 1px solid #423a33;
+  &:link,
+  &:visited {
+    color: #977e53;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      .sectors-catalog__card-image {
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    grid-template-columns: 1fr auto;
+    grid-gap: 2rem;
+    &::before {
+      content: counter(ordered-list, decimal-leading-zero);
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      justify-self: flex-end;
+      font-family: var(--oswald);
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 2.4rem */
+      letter-spacing: -0.06rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.sectors-catalog__card-image-container {
+  position: relative;
+  grid-area: image;
+
+  margin-right: 3rem;
+  backface-visibility: hidden;
+  overflow: hidden;
+  overflow: clip;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-bottom: 61.25%;
+  }
+
+  @include breakpoint(mobile) {
+    margin: 0;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+}
+
+.sectors-catalog__card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s;
+}
+
+.sectors-catalog__card-content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-gap: 2rem;
+
+  @include breakpoint(mobile) {
+    display: contents;
+  }
+
+  @include breakpointMF(small-tablet) {
+    &::before {
+      content: counter(ordered-list, decimal-leading-zero);
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 3.6rem */
+      letter-spacing: -0.09rem;
+      text-transform: uppercase;
+      grid-column: 5 / -1;
+      justify-self: flex-end;
+      align-self: flex-start;
+      font-family: var(--oswald);
+    }
+  }
+}
+
+.sectors-catalog__card-title {
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpointMF(small-tablet) {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.15rem;
+    text-transform: uppercase;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+}
+
+.sectors-catalog__card-list {
+  @include breakpointMF(small-tablet) {
+    grid-column: 1 / 4;
+    align-self: flex-end;
+  }
+
+  @include breakpoint(mobile) {
+    grid-column: 1 / -1;
+  }
+}
+
+.sectors-catalog__card-list-item {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.125rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  @include breakpoint(mobile) {
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.1rem;
+    text-transform: uppercase;
+  }
+  &:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  &::after {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    background: #977e53;
+    margin-left: auto;
+
+    @include breakpoint(mobile) {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+  }
+}
