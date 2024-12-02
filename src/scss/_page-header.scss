@@ -37,6 +37,10 @@
   height: auto;
   flex-shrink: 0;
 
+  .page-header__logo--white & {
+    // filter: invert(100%) contrast(100%) brightness(200%) grayscale(100%);
+  }
+
   @include breakpoint(mobile) {
     width: 8rem;
   }
@@ -61,6 +65,10 @@
   line-height: 120%;
   text-transform: uppercase;
   color: #977e53;
+
+  .page-header__logo--white & {
+    color: white;
+  }
 }
 
 .page-header__logo-desc {
@@ -70,6 +78,10 @@
   line-height: 120%;
   color: #977e53;
   text-transform: uppercase;
+
+  .page-header__logo--white & {
+    color: white;
+  }
 }
 
 .page-header__menu {
@@ -97,6 +109,7 @@
     padding-top: 2rem;
     padding-bottom: 4rem;
     padding-top: 2rem;
+
     .menu-open & {
       opacity: 1;
       visibility: inherit;
@@ -130,6 +143,11 @@
   width: 8rem;
   display: block;
   height: auto;
+
+  @include breakpoint(mobile) {
+    margin-top: 0.12rem;
+    margin-left: 0.1rem;
+  }
 }
 
 .page-header__menu-burger {

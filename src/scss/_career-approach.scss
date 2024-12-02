@@ -1,0 +1,150 @@
+.career-approach {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+
+  background-color: var(--bg-color);
+  color: white;
+  padding-top: 20rem;
+  padding-bottom: 18rem;
+
+  @include breakpoint(mobile) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.career-approach__content {
+  @include blockContent;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  position: relative;
+  z-index: 1;
+  @include breakpoint(mobile) {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+}
+
+.career-approach__image {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  width: 108.3rem;
+  max-width: none;
+  height: auto;
+  top: -2.5rem;
+  left: -1.1rem;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.career-approach__heading {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+  color: #977e53;
+
+  @include breakpoint(mobile) {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+}
+
+.career-approach__right-col {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  @include breakpoint(mobile) {
+    gap: 2.5rem;
+  }
+}
+
+.career-approach__large-text {
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.3rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+
+  @include breakpoint(mobile) {
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 3rem */
+    letter-spacing: -0.12rem;
+    text-transform: uppercase;
+  }
+}
+
+.career-approach__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1.6rem 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #977e53;
+  transition: background-color 0.2s, color 0.2s;
+  border: 1px solid #977e53;
+  border-radius: 7rem;
+  align-self: flex-start;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -1px;
+    transition: transform 0.2s;
+    transform-origin: center bottom;
+    background-color: #977e53;
+    transform: scaleY(0);
+  }
+  &:link,
+  &:visited {
+    color: #977e53;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: white;
+      &::before {
+        transform: scaleY(1);
+      }
+    }
+  }
+
+  &:active {
+    color: white;
+    &::before {
+      transform: scaleY(1);
+    }
+  }
+
+  @include breakpoint(mobile) {
+    margin: 0;
+    padding: 1.4rem 2rem;
+  }
+}

@@ -32,6 +32,8 @@ import certificates from "./certificates";
 import fancybox from "./fancybox";
 import subjects from "./subjects";
 import sectorAdvantages from "./sectorAdvantages";
+import careerVacancies from "./careerVacancies";
+import careerApproach from "./careerApproach";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -66,6 +68,8 @@ document.addEventListener("DOMContentLoaded", () => {
   certificates();
   subjects();
   sectorAdvantages();
+  careerVacancies();
+  careerApproach();
 });
 
 window.addEventListener("load", () => {

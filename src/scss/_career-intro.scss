@@ -1,0 +1,215 @@
+.career-intro {
+  @include blockWrapper;
+  position: relative;
+  z-index: 4;
+  color: white;
+  background-color: var(--bg-color);
+}
+
+.career-intro__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background: linear-gradient(
+          to bottom right,
+          rgba(0, 0, 0, 0.3) 0%,
+          rgba(0, 0, 0, 0) 50%
+        )
+        bottom right / 50% 50% no-repeat,
+      linear-gradient(
+          to bottom left,
+          rgba(0, 0, 0, 0.3) 0%,
+          rgba(0, 0, 0, 0) 50%
+        )
+        bottom left / 50% 50% no-repeat,
+      linear-gradient(to top left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 50%)
+        top left / 50% 50% no-repeat,
+      linear-gradient(to top right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 50%)
+        top right / 50% 50% no-repeat,
+      linear-gradient(0deg, rgba(0, 0, 0, 0) 74.74%, rgba(0, 0, 0, 0.3) 101.67%),
+      linear-gradient(180deg, rgba(0, 0, 0, 0) 56.56%, rgba(0, 0, 0, 0.4) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%);
+
+    @include breakpoint(mobile) {
+      background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0) 91.81%,
+          rgba(0, 0, 0, 0.2) 100%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 78.29%,
+          rgba(0, 0, 0, 0.3) 99.93%
+        ),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    }
+  }
+}
+
+.career-intro__bg-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.career-intro__content {
+  @include blockContent;
+  min-height: min(100vh, 96rem);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 2rem;
+  grid-template-rows: 1fr auto;
+  padding-top: 18rem;
+  padding-bottom: 4rem;
+
+  @include breakpoint(mobile) {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding-top: 11.6rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.career-intro__back {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+  color: white;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  padding: 1.5rem 1.8rem;
+  border-radius: 7rem;
+  border: 1px solid white;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-self: flex-start;
+  justify-self: flex-start;
+  margin-top: 1rem;
+
+  @include breakpoint(mobile) {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 1.68rem */
+    letter-spacing: -0.024rem;
+    text-transform: uppercase;
+  }
+  &:link,
+  &:visited {
+    color: white;
+  }
+  svg {
+    flex-shrink: 0;
+    fill: currentColor;
+    width: 0.6rem;
+    height: 1.2rem;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: white;
+      color: var(--primary-color);
+    }
+  }
+}
+
+.career-intro__heading {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 8rem */
+  letter-spacing: -0.4rem;
+  text-transform: uppercase;
+  font-family: var(--oswald);
+  text-wrap: balance;
+
+  @include breakpoint(mobile) {
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 4.08rem */
+    letter-spacing: -0.17rem;
+    text-transform: uppercase;
+  }
+}
+
+.career-intro__scroll {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  align-self: flex-end;
+  justify-self: flex-start;
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 1px solid white;
+  transition: border-color 0.2s, background-color 0.2s;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: white;
+
+      svg {
+        fill: var(--primary-color);
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: white;
+    transition: fill 0.2s;
+    animation-name: scroll-arrow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+  }
+}
+
+.career-intro__text {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  align-self: flex-end;
+  max-width: 70rem;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+
+  @include breakpoint(mobile) {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    max-width: 30rem;
+    margin-top: auto;
+    align-self: stretch;
+  }
+}
