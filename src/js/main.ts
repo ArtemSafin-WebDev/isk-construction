@@ -35,6 +35,7 @@ import sectorAdvantages from "./sectorAdvantages";
 import careerVacancies from "./careerVacancies";
 import careerApproach from "./careerApproach";
 import otherArticles from "./otherArticles";
+import pressCenter from "./pressCenter";
 
 document.addEventListener("DOMContentLoaded", () => {
   smoothScrolling();
@@ -72,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   careerVacancies();
   careerApproach();
   otherArticles();
+  pressCenter();
 });
 
 window.addEventListener("load", () => {

@@ -53,6 +53,15 @@ body.modal-open {
   overscroll-behavior: none;
 }
 
+@include breakpoint(mobile) {
+  body.years-shown {
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;

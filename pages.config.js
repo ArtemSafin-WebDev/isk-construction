@@ -8,6 +8,7 @@ import sector from "./pages-data/sector";
 import career from "./pages-data/career";
 import sectors from "./pages-data/sectors";
 import article from "./pages-data/article";
+import news from "./pages-data/news";
 
 const pagesConfig = {
   ...home,
@@ -20,6 +21,7 @@ const pagesConfig = {
   ...career,
   ...sectors,
   ...article,
+  ...news,
 };
 
 export default pagesConfig;
