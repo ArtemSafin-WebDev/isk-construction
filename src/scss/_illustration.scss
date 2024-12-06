@@ -43,13 +43,18 @@
     height: 100%;
     object-fit: cover;
 
-    object-position: 30% -17%;
+    // object-position: 30% -17%;
 
-    width: 100%;
-    object-position: 30% -17%;
+    // width: 100%;
+    // object-position: 30% -17%;
 
-    width: 115%;
-    object-position: 30% 4%;
+    // width: 115%;
+    // object-position: 30% 4%;
+
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30% -17%;
 
     @include breakpoint(mobile) {
       width: 100%;
