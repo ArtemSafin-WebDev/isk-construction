@@ -26,17 +26,26 @@ export default function smoothScrolling() {
 
   document.addEventListener("click", (event) => {
     const target = event.target as HTMLElement;
-    const link = (target.matches("a") ||
-      target.closest("a")) as HTMLAnchorElement | null;
-    console.log("Link", link);
+
+    const isLink = target.matches("a") || target.closest("a");
+    if (!isLink) return;
+
+    const link = (
+      target.matches("a") ? target : target.closest("a")
+    ) as HTMLAnchorElement;
+    console.log("Link", link, link?.hash, link?.href);
+
     if (!link || !link.hash) return;
     event.preventDefault();
     console.log("Hash", link.hash);
+
+    console.log("Scrolling to", link.hash);
     gsap.to(window, {
       duration: 0.6,
       scrollTo: {
         y: link.hash,
         autoKill: false,
+        offsetY: 40,
       },
     });
   });
