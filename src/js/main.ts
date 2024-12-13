@@ -38,9 +38,9 @@ import otherArticles from "./otherArticles";
 import pressCenter from "./pressCenter";
 import contactsMap from "./contactsMap";
 import contacts from "./contacts";
+import fixedHeader from "./fixedHeader";
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Hello world");
   smoothScrolling();
   forms();
   intro();
@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   pressCenter();
   contactsMap();
   contacts();
+  fixedHeader();
 });
 
 window.addEventListener("load", () => {
