@@ -36,8 +36,11 @@ import careerVacancies from "./careerVacancies";
 import careerApproach from "./careerApproach";
 import otherArticles from "./otherArticles";
 import pressCenter from "./pressCenter";
+import contactsMap from "./contactsMap";
+import contacts from "./contacts";
 
 document.addEventListener("DOMContentLoaded", () => {
+  console.log("Hello world");
   smoothScrolling();
   forms();
   intro();
@@ -74,6 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
   careerApproach();
   otherArticles();
   pressCenter();
+  contactsMap();
+  contacts();
 });
 
 window.addEventListener("load", () => {

@@ -5,9 +5,16 @@ import path from "path";
 import { glob } from "glob";
 import globalContext from "./pages-data/globalContext";
 import pagesConfig from "./pages.config";
+import { defineConfig } from "vite";
 
-export default {
+export default defineConfig({
+  esbuild: {
+    supported: {
+      "top-level-await": true,
+    },
+  },
   build: {
+    target: "esnext",
     rollupOptions: {
       output: {
         entryFileNames: `assets/main.js`,
@@ -25,6 +32,7 @@ export default {
       iconDirs: [resolve(process.cwd(), "src/icons")],
       symbolId: "[name]",
     }),
+    //@ts-ignore
     handlebars({
       partialDirectory: resolve(__dirname, "partials"),
       helpers: {
@@ -42,4 +50,4 @@ export default {
       },
     }),
   ],
-};
+});

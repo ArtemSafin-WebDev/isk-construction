@@ -1,0 +1,6625 @@
+[
+  {
+    "tags": "country",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#907760"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 5,
+        "opacity": 1
+      },
+      {
+        "zoom": 6,
+        "opacity": 1
+      },
+      {
+        "zoom": 7,
+        "opacity": 1
+      },
+      {
+        "zoom": 8,
+        "opacity": 1
+      },
+      {
+        "zoom": 9,
+        "opacity": 1
+      },
+      {
+        "zoom": 10,
+        "opacity": 1
+      },
+      {
+        "zoom": 11,
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "country",
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "color": "#574c42"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.47
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.44
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.41
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.38
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.35
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.33
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.28
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 17,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 18,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 19,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 20,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 21,
+        "opacity": 0.25
+      }
+    ]
+  },
+  {
+    "tags": "region",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#715e4b",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 1,
+        "color": "#715e4b",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 2,
+        "color": "#715e4b",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 3,
+        "color": "#715e4b",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 4,
+        "color": "#715e4b",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 5,
+        "color": "#715e4b",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 6,
+        "color": "#715e4b",
+        "opacity": 1
+      },
+      {
+        "zoom": 7,
+        "color": "#715e4b",
+        "opacity": 1
+      },
+      {
+        "zoom": 8,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 9,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 10,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 11,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#907760",
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "color": "#907760",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "region",
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "color": "#574c42"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.47
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.44
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.41
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.38
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.35
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.33
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.28
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 17,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 18,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 19,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 20,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 21,
+        "opacity": 0.25
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "admin",
+      "none": ["country", "region", "locality", "district", "address"]
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#907760"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 6,
+        "opacity": 1
+      },
+      {
+        "zoom": 7,
+        "opacity": 1
+      },
+      {
+        "zoom": 8,
+        "opacity": 1
+      },
+      {
+        "zoom": 9,
+        "opacity": 1
+      },
+      {
+        "zoom": 10,
+        "opacity": 1
+      },
+      {
+        "zoom": 11,
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "admin",
+      "none": ["country", "region", "locality", "district", "address"]
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "color": "#574c42"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.15
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.47
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.44
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.41
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.38
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.35
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.33
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.28
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 17,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 18,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 19,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 20,
+        "opacity": 0.25
+      },
+      {
+        "zoom": 21,
+        "opacity": 0.25
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "landcover",
+      "none": "vegetation"
+    },
+    "stylers": [
+      {
+        "hue": "#3e3832"
+      }
+    ]
+  },
+  {
+    "tags": "vegetation",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#5b5249",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 1,
+        "color": "#5b5249",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 2,
+        "color": "#5b5249",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 3,
+        "color": "#5b5249",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 4,
+        "color": "#5b5249",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 5,
+        "color": "#5b5249",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 6,
+        "color": "#5b5249",
+        "opacity": 0.2
+      },
+      {
+        "zoom": 7,
+        "color": "#3e3832",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 8,
+        "color": "#3e3832",
+        "opacity": 0.4
+      },
+      {
+        "zoom": 9,
+        "color": "#3e3832",
+        "opacity": 0.6
+      },
+      {
+        "zoom": 10,
+        "color": "#3e3832",
+        "opacity": 0.8
+      },
+      {
+        "zoom": 11,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "color": "#39332e",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "color": "#332e29",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "park",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 1,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 2,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 3,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 4,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 5,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 6,
+        "color": "#3e3832",
+        "opacity": 0.2
+      },
+      {
+        "zoom": 7,
+        "color": "#3e3832",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 8,
+        "color": "#3e3832",
+        "opacity": 0.4
+      },
+      {
+        "zoom": 9,
+        "color": "#3e3832",
+        "opacity": 0.6
+      },
+      {
+        "zoom": 10,
+        "color": "#3e3832",
+        "opacity": 0.8
+      },
+      {
+        "zoom": 11,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "color": "#39332e",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#332e29",
+        "opacity": 0.9
+      },
+      {
+        "zoom": 17,
+        "color": "#332e29",
+        "opacity": 0.8
+      },
+      {
+        "zoom": 18,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 19,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 20,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 21,
+        "color": "#332e29",
+        "opacity": 0.7
+      }
+    ]
+  },
+  {
+    "tags": "national_park",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 1,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 2,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 3,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 4,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 5,
+        "color": "#3e3832",
+        "opacity": 0.1
+      },
+      {
+        "zoom": 6,
+        "color": "#3e3832",
+        "opacity": 0.2
+      },
+      {
+        "zoom": 7,
+        "color": "#3e3832",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 8,
+        "color": "#3e3832",
+        "opacity": 0.4
+      },
+      {
+        "zoom": 9,
+        "color": "#3e3832",
+        "opacity": 0.6
+      },
+      {
+        "zoom": 10,
+        "color": "#3e3832",
+        "opacity": 0.8
+      },
+      {
+        "zoom": 11,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "color": "#3e3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "color": "#39332e",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#332e29",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 17,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 18,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 19,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 20,
+        "color": "#332e29",
+        "opacity": 0.7
+      },
+      {
+        "zoom": 21,
+        "color": "#332e29",
+        "opacity": 0.7
+      }
+    ]
+  },
+  {
+    "tags": "cemetery",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 1,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 2,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 3,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 4,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 5,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 6,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 7,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 8,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 9,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 10,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 11,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 12,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 13,
+        "color": "#3e3832"
+      },
+      {
+        "zoom": 14,
+        "color": "#39332e"
+      },
+      {
+        "zoom": 15,
+        "color": "#332e29"
+      },
+      {
+        "zoom": 16,
+        "color": "#332e29"
+      },
+      {
+        "zoom": 17,
+        "color": "#332e29"
+      },
+      {
+        "zoom": 18,
+        "color": "#332e29"
+      },
+      {
+        "zoom": 19,
+        "color": "#332e29"
+      },
+      {
+        "zoom": 20,
+        "color": "#332e29"
+      },
+      {
+        "zoom": 21,
+        "color": "#332e29"
+      }
+    ]
+  },
+  {
+    "tags": "sports_ground",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 7,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 8,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 9,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 10,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 11,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 12,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 13,
+        "color": "#4c443e",
+        "opacity": 0
+      },
+      {
+        "zoom": 14,
+        "color": "#473f3a",
+        "opacity": 0
+      },
+      {
+        "zoom": 15,
+        "color": "#413a35",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 16,
+        "color": "#403934",
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "color": "#3f3833",
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "color": "#3e3833",
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "color": "#3d3732",
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#3c3631",
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "color": "#3b3530",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "terrain",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "hue": "#4c453e"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.3
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.35
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 10,
+        "opacity": 1
+      },
+      {
+        "zoom": 11,
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "geographic_line",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "color": "#b3aba2"
+      }
+    ]
+  },
+  {
+    "tags": "land",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 1,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 2,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 3,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 4,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 5,
+        "color": "#49433c"
+      },
+      {
+        "zoom": 6,
+        "color": "#47403a"
+      },
+      {
+        "zoom": 7,
+        "color": "#443e37"
+      },
+      {
+        "zoom": 8,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 9,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 10,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 11,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 12,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 13,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 14,
+        "color": "#3e3933"
+      },
+      {
+        "zoom": 15,
+        "color": "#3b3630"
+      },
+      {
+        "zoom": 16,
+        "color": "#3b3630"
+      },
+      {
+        "zoom": 17,
+        "color": "#3a352f"
+      },
+      {
+        "zoom": 18,
+        "color": "#3a352f"
+      },
+      {
+        "zoom": 19,
+        "color": "#39342f"
+      },
+      {
+        "zoom": 20,
+        "color": "#39342e"
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e"
+      }
+    ]
+  },
+  {
+    "tags": "residential",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 1,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 2,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 3,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 4,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 5,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 6,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 7,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 9,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 10,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 11,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 12,
+        "color": "#4c453e",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 13,
+        "color": "#4c453e",
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "color": "#47403a",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#413b35",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#403a34",
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "color": "#3f3933",
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "color": "#3e3933",
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "color": "#3d3832",
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#3c3731",
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "color": "#3b3630",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "locality",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 1,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 2,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 3,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 4,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 5,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 6,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 7,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 8,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 9,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 10,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 11,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 12,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 13,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 14,
+        "color": "#47403a"
+      },
+      {
+        "zoom": 15,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 16,
+        "color": "#403a34"
+      },
+      {
+        "zoom": 17,
+        "color": "#3f3933"
+      },
+      {
+        "zoom": 18,
+        "color": "#3e3933"
+      },
+      {
+        "zoom": 19,
+        "color": "#3d3832"
+      },
+      {
+        "zoom": 20,
+        "color": "#3c3731"
+      },
+      {
+        "zoom": 21,
+        "color": "#3b3630"
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "structure",
+      "none": ["building", "fence"]
+    },
+    "elements": "geometry",
+    "stylers": [
+      {
+        "opacity": 0.9
+      },
+      {
+        "zoom": 0,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 1,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 2,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 3,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 4,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 5,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 6,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 7,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 8,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 9,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 10,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 11,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 12,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 13,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 14,
+        "color": "#47403a"
+      },
+      {
+        "zoom": 15,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 16,
+        "color": "#403a34"
+      },
+      {
+        "zoom": 17,
+        "color": "#3f3933"
+      },
+      {
+        "zoom": 18,
+        "color": "#3e3933"
+      },
+      {
+        "zoom": 19,
+        "color": "#3d3832"
+      },
+      {
+        "zoom": 20,
+        "color": "#3c3731"
+      },
+      {
+        "zoom": 21,
+        "color": "#3b3630"
+      }
+    ]
+  },
+  {
+    "tags": "building",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.7
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 17,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 18,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 19,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 20,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 21,
+        "opacity": 0.6
+      }
+    ]
+  },
+  {
+    "tags": "building",
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "color": "#625950"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "urban_area",
+      "none": [
+        "residential",
+        "industrial",
+        "cemetery",
+        "park",
+        "medical",
+        "sports_ground",
+        "beach",
+        "construction_site"
+      ]
+    },
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 1,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 2,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 3,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 4,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 5,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 6,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 7,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 8,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 9,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 10,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 11,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "color": "#574f47",
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "color": "#504942",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#49423c",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#423c36",
+        "opacity": 0.67
+      },
+      {
+        "zoom": 17,
+        "color": "#3b3630",
+        "opacity": 0.33
+      },
+      {
+        "zoom": 18,
+        "color": "#3b3630",
+        "opacity": 0
+      },
+      {
+        "zoom": 19,
+        "color": "#3b3630",
+        "opacity": 0
+      },
+      {
+        "zoom": 20,
+        "color": "#3b3630",
+        "opacity": 0
+      },
+      {
+        "zoom": 21,
+        "color": "#3b3630",
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "tags": "poi",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "poi",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "poi",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "outdoor",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "outdoor",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "outdoor",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "park",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "park",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "park",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "cemetery",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "cemetery",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "cemetery",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "beach",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "beach",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "beach",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "medical",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "medical",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "medical",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "shopping",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "shopping",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "shopping",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "commercial_services",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "commercial_services",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "commercial_services",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "food_and_drink",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "food_and_drink",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "food_and_drink",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "road",
+    "elements": "label.icon",
+    "types": "point",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "road",
+    "elements": "label.text.fill",
+    "types": "point",
+    "stylers": [
+      {
+        "color": "#876f5a"
+      }
+    ]
+  },
+  {
+    "tags": "entrance",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      },
+      {
+        "hue": "#3a3027"
+      }
+    ]
+  },
+  {
+    "tags": "locality",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#2e261f"
+      },
+      {
+        "secondary-color": "#876f5a"
+      }
+    ]
+  },
+  {
+    "tags": "country",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "opacity": 0.8
+      },
+      {
+        "color": "#9c9186"
+      }
+    ]
+  },
+  {
+    "tags": "country",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "region",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#9c9186"
+      },
+      {
+        "opacity": 0.8
+      }
+    ]
+  },
+  {
+    "tags": "region",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "district",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#9c9186"
+      },
+      {
+        "opacity": 0.8
+      }
+    ]
+  },
+  {
+    "tags": "district",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "admin",
+      "none": ["country", "region", "locality", "district", "address"]
+    },
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#9c9186"
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "admin",
+      "none": ["country", "region", "locality", "district", "address"]
+    },
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "locality",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#bfb8b0"
+      },
+      {
+        "zoom": 1,
+        "color": "#bfb8b0"
+      },
+      {
+        "zoom": 2,
+        "color": "#bfb8b0"
+      },
+      {
+        "zoom": 3,
+        "color": "#bfb8b0"
+      },
+      {
+        "zoom": 4,
+        "color": "#bfb8b0"
+      },
+      {
+        "zoom": 5,
+        "color": "#c1bab2"
+      },
+      {
+        "zoom": 6,
+        "color": "#c3bcb5"
+      },
+      {
+        "zoom": 7,
+        "color": "#c4beb7"
+      },
+      {
+        "zoom": 8,
+        "color": "#c6c0b9"
+      },
+      {
+        "zoom": 9,
+        "color": "#c8c2bc"
+      },
+      {
+        "zoom": 10,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 11,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 12,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 13,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 14,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 15,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 16,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 17,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 18,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 19,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 20,
+        "color": "#cac4be"
+      },
+      {
+        "zoom": 21,
+        "color": "#cac4be"
+      }
+    ]
+  },
+  {
+    "tags": "locality",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "road",
+    "elements": "label.text.fill",
+    "types": "polyline",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      }
+    ]
+  },
+  {
+    "tags": "road",
+    "elements": "label.text.outline",
+    "types": "polyline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "road",
+    "elements": "geometry.fill.pattern",
+    "types": "polyline",
+    "stylers": [
+      {
+        "scale": 1
+      },
+      {
+        "color": "#918578"
+      }
+    ]
+  },
+  {
+    "tags": "road",
+    "elements": "label.text.fill",
+    "types": "point",
+    "stylers": [
+      {
+        "color": "#c6b7a9"
+      }
+    ]
+  },
+  {
+    "tags": "structure",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#70665c"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "structure",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "address",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#70665c"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.9
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "address",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "landscape",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#9c9186",
+        "opacity": 1
+      },
+      {
+        "zoom": 1,
+        "color": "#9c9186",
+        "opacity": 1
+      },
+      {
+        "zoom": 2,
+        "color": "#9c9186",
+        "opacity": 1
+      },
+      {
+        "zoom": 3,
+        "color": "#9c9186",
+        "opacity": 1
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 14,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 15,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 16,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 17,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 18,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 19,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 20,
+        "color": "#70665c",
+        "opacity": 0.5
+      },
+      {
+        "zoom": 21,
+        "color": "#70665c",
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": "landscape",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 4,
+        "opacity": 0
+      },
+      {
+        "zoom": 5,
+        "opacity": 0
+      },
+      {
+        "zoom": 6,
+        "opacity": 0
+      },
+      {
+        "zoom": 7,
+        "opacity": 0
+      },
+      {
+        "zoom": 8,
+        "opacity": 0
+      },
+      {
+        "zoom": 9,
+        "opacity": 0
+      },
+      {
+        "zoom": 10,
+        "opacity": 0
+      },
+      {
+        "zoom": 11,
+        "opacity": 0
+      },
+      {
+        "zoom": 12,
+        "opacity": 0
+      },
+      {
+        "zoom": 13,
+        "opacity": 0
+      },
+      {
+        "zoom": 14,
+        "opacity": 0
+      },
+      {
+        "zoom": 15,
+        "opacity": 0
+      },
+      {
+        "zoom": 16,
+        "opacity": 0
+      },
+      {
+        "zoom": 17,
+        "opacity": 0
+      },
+      {
+        "zoom": 18,
+        "opacity": 0
+      },
+      {
+        "zoom": 19,
+        "opacity": 0
+      },
+      {
+        "zoom": 20,
+        "opacity": 0
+      },
+      {
+        "zoom": 21,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "tags": "water",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#8a705c"
+      },
+      {
+        "opacity": 0.8
+      }
+    ]
+  },
+  {
+    "tags": "water",
+    "elements": "label.text.outline",
+    "types": "polyline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.2
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_1",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 2.64
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 2.84
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 3.13
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 3.55
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 3.21
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 2.72
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 2.35
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 2.02
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 1.81
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 1.69
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 1.66
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 1.31
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 1.08
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.93
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.84
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_1"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#38332e",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#38332e",
+        "scale": 1.96
+      },
+      {
+        "zoom": 7,
+        "color": "#38332e",
+        "scale": 1.96
+      },
+      {
+        "zoom": 8,
+        "color": "#38332e",
+        "scale": 2.02
+      },
+      {
+        "zoom": 9,
+        "color": "#38332e",
+        "scale": 2.16
+      },
+      {
+        "zoom": 10,
+        "color": "#38332e",
+        "scale": 2.16
+      },
+      {
+        "zoom": 11,
+        "color": "#38332e",
+        "scale": 2.04
+      },
+      {
+        "zoom": 12,
+        "color": "#38332e",
+        "scale": 1.93
+      },
+      {
+        "zoom": 13,
+        "color": "#38332e",
+        "scale": 1.8
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 1.71
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 1.68
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 1.7
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 1.38
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 1.15
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.91
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.87
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_2",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 2.64
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 2.84
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 3.13
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 3.55
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 3.21
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 2.72
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 2.35
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 2.02
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 1.81
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 1.69
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 1.66
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 1.31
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 1.08
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.93
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.84
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_2"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#38332e",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#38332e",
+        "scale": 1.96
+      },
+      {
+        "zoom": 7,
+        "color": "#38332e",
+        "scale": 1.96
+      },
+      {
+        "zoom": 8,
+        "color": "#38332e",
+        "scale": 2.02
+      },
+      {
+        "zoom": 9,
+        "color": "#38332e",
+        "scale": 2.16
+      },
+      {
+        "zoom": 10,
+        "color": "#38332e",
+        "scale": 2.16
+      },
+      {
+        "zoom": 11,
+        "color": "#38332e",
+        "scale": 2.04
+      },
+      {
+        "zoom": 12,
+        "color": "#38332e",
+        "scale": 1.93
+      },
+      {
+        "zoom": 13,
+        "color": "#38332e",
+        "scale": 1.8
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 1.71
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 1.68
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 1.7
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 1.38
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 1.15
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.91
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.87
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_3",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 2.23
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 2.33
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 1.49
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 1.48
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 1.23
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 1.06
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 0.96
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 0.92
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 0.81
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 0.75
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.73
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.75
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_3"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 1.03
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0.83
+      },
+      {
+        "zoom": 9,
+        "color": "#38332e",
+        "scale": 2.71
+      },
+      {
+        "zoom": 10,
+        "color": "#38332e",
+        "scale": 1.76
+      },
+      {
+        "zoom": 11,
+        "color": "#38332e",
+        "scale": 1.31
+      },
+      {
+        "zoom": 12,
+        "color": "#38332e",
+        "scale": 1.37
+      },
+      {
+        "zoom": 13,
+        "color": "#38332e",
+        "scale": 1.21
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 1.1
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 1.02
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 1
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 0.88
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 0.81
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 0.79
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.81
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.87
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_4",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 1.5
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 1.12
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 1.25
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 1.05
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 0.93
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 0.86
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 1.02
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 0.88
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 0.79
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.76
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.76
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_4"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0.72
+      },
+      {
+        "zoom": 10,
+        "color": "#38332e",
+        "scale": 1.22
+      },
+      {
+        "zoom": 11,
+        "color": "#38332e",
+        "scale": 1.04
+      },
+      {
+        "zoom": 12,
+        "color": "#38332e",
+        "scale": 1.17
+      },
+      {
+        "zoom": 13,
+        "color": "#38332e",
+        "scale": 1.06
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 0.97
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 0.92
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 1.09
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 0.95
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 0.86
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 0.82
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.82
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.86
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_5",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 1.11
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 0.84
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 0.72
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 0.84
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 0.97
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 0.83
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 0.75
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.73
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.74
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_5"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0.4
+      },
+      {
+        "zoom": 12,
+        "color": "#38332e",
+        "scale": 1.03
+      },
+      {
+        "zoom": 13,
+        "color": "#38332e",
+        "scale": 0.88
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 0.79
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 0.91
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 1.05
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 0.9
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 0.82
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 0.79
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.81
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.86
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_6",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 2
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 1.13
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 1.11
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 1.16
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 0.93
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 0.8
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.75
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.75
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_6"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 13,
+        "color": "#38332e",
+        "scale": 1.49
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 1.09
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 1.13
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 1.22
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 0.99
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 0.87
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 0.82
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.82
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.86
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_7",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 0
+      },
+      {
+        "zoom": 14,
+        "color": "#6e645b",
+        "scale": 0.8
+      },
+      {
+        "zoom": 15,
+        "color": "#6d6359",
+        "scale": 0.69
+      },
+      {
+        "zoom": 16,
+        "color": "#6b6158",
+        "scale": 0.78
+      },
+      {
+        "zoom": 17,
+        "color": "#696056",
+        "scale": 0.71
+      },
+      {
+        "zoom": 18,
+        "color": "#675e55",
+        "scale": 0.69
+      },
+      {
+        "zoom": 19,
+        "color": "#665c53",
+        "scale": 0.7
+      },
+      {
+        "zoom": 20,
+        "color": "#645b52",
+        "scale": 0.74
+      },
+      {
+        "zoom": 21,
+        "color": "#625950",
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_7"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 0.84
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 0.77
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 0.84
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 0.78
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 0.75
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 0.76
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.79
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.86
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_minor",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#464039"
+      },
+      {
+        "zoom": 0,
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "scale": 0
+      },
+      {
+        "zoom": 11,
+        "scale": 0
+      },
+      {
+        "zoom": 12,
+        "scale": 0
+      },
+      {
+        "zoom": 13,
+        "scale": 0
+      },
+      {
+        "zoom": 14,
+        "scale": 0
+      },
+      {
+        "zoom": 15,
+        "scale": 0
+      },
+      {
+        "zoom": 16,
+        "scale": 0.8
+      },
+      {
+        "zoom": 17,
+        "scale": 0.8
+      },
+      {
+        "zoom": 18,
+        "scale": 0.8
+      },
+      {
+        "zoom": 19,
+        "scale": 0.8
+      },
+      {
+        "zoom": 20,
+        "scale": 0.8
+      },
+      {
+        "zoom": 21,
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_minor"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_unclassified",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#464039"
+      },
+      {
+        "zoom": 0,
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "scale": 0
+      },
+      {
+        "zoom": 11,
+        "scale": 0
+      },
+      {
+        "zoom": 12,
+        "scale": 0
+      },
+      {
+        "zoom": 13,
+        "scale": 0
+      },
+      {
+        "zoom": 14,
+        "scale": 0
+      },
+      {
+        "zoom": 15,
+        "scale": 0
+      },
+      {
+        "zoom": 16,
+        "scale": 0.8
+      },
+      {
+        "zoom": 17,
+        "scale": 0.8
+      },
+      {
+        "zoom": 18,
+        "scale": 0.8
+      },
+      {
+        "zoom": 19,
+        "scale": 0.8
+      },
+      {
+        "zoom": 20,
+        "scale": 0.8
+      },
+      {
+        "zoom": 21,
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "road_unclassified"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "tags": {
+      "all": "is_tunnel",
+      "none": "path"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 1,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 2,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 3,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 4,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 5,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 6,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 7,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 8,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 9,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 10,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 11,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 12,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 13,
+        "color": "#514a43"
+      },
+      {
+        "zoom": 14,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 15,
+        "color": "#464039"
+      },
+      {
+        "zoom": 16,
+        "color": "#453f38"
+      },
+      {
+        "zoom": 17,
+        "color": "#443e38"
+      },
+      {
+        "zoom": 18,
+        "color": "#443e37"
+      },
+      {
+        "zoom": 19,
+        "color": "#433d36"
+      },
+      {
+        "zoom": 20,
+        "color": "#423c36"
+      },
+      {
+        "zoom": 21,
+        "color": "#413b35"
+      }
+    ]
+  },
+  {
+    "tags": {
+      "all": "path",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": {
+      "all": "path",
+      "none": "is_tunnel"
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "opacity": 0.7
+      },
+      {
+        "zoom": 0,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 1,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 2,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 3,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 4,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 5,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 6,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 7,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 8,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 9,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 10,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 11,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 12,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 13,
+        "color": "#4c453e"
+      },
+      {
+        "zoom": 14,
+        "color": "#47403a"
+      },
+      {
+        "zoom": 15,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 16,
+        "color": "#403a34"
+      },
+      {
+        "zoom": 17,
+        "color": "#3f3933"
+      },
+      {
+        "zoom": 18,
+        "color": "#3e3933"
+      },
+      {
+        "zoom": 19,
+        "color": "#3d3832"
+      },
+      {
+        "zoom": 20,
+        "color": "#3c3731"
+      },
+      {
+        "zoom": 21,
+        "color": "#3b3630"
+      }
+    ]
+  },
+  {
+    "tags": "road_construction",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#70665c"
+      }
+    ]
+  },
+  {
+    "tags": "road_construction",
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 1,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 2,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 3,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 4,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 5,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 6,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 7,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 8,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 9,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 10,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 11,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 12,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 13,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e"
+      },
+      {
+        "zoom": 15,
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 16,
+        "color": "#171613"
+      },
+      {
+        "zoom": 17,
+        "color": "#13110f"
+      },
+      {
+        "zoom": 18,
+        "color": "#0e0d0c"
+      },
+      {
+        "zoom": 19,
+        "color": "#090908"
+      },
+      {
+        "zoom": 20,
+        "color": "#050404"
+      },
+      {
+        "zoom": 21,
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "ferry"
+    },
+    "stylers": [
+      {
+        "color": "#4d3f33"
+      }
+    ]
+  },
+  {
+    "tags": "transit_location",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "hue": "#2e261f"
+      },
+      {
+        "saturation": -0.81
+      }
+    ]
+  },
+  {
+    "tags": "transit_location",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#806f60"
+      }
+    ]
+  },
+  {
+    "tags": "transit_location",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      }
+    ]
+  },
+  {
+    "tags": "transit_schema",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#806f60"
+      },
+      {
+        "scale": 0.7
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.5
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 17,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 18,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 19,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 20,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 21,
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "tags": "transit_schema",
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "tags": "transit_line",
+    "elements": "geometry.fill.pattern",
+    "stylers": [
+      {
+        "color": "#5a5653"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0
+      },
+      {
+        "zoom": 1,
+        "opacity": 0
+      },
+      {
+        "zoom": 2,
+        "opacity": 0
+      },
+      {
+        "zoom": 3,
+        "opacity": 0
+      },
+      {
+        "zoom": 4,
+        "opacity": 0
+      },
+      {
+        "zoom": 5,
+        "opacity": 0
+      },
+      {
+        "zoom": 6,
+        "opacity": 0
+      },
+      {
+        "zoom": 7,
+        "opacity": 0
+      },
+      {
+        "zoom": 8,
+        "opacity": 0
+      },
+      {
+        "zoom": 9,
+        "opacity": 0
+      },
+      {
+        "zoom": 10,
+        "opacity": 0
+      },
+      {
+        "zoom": 11,
+        "opacity": 0
+      },
+      {
+        "zoom": 12,
+        "opacity": 0
+      },
+      {
+        "zoom": 13,
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "transit_line",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#5a5653"
+      },
+      {
+        "scale": 0.4
+      },
+      {
+        "zoom": 0,
+        "opacity": 0
+      },
+      {
+        "zoom": 1,
+        "opacity": 0
+      },
+      {
+        "zoom": 2,
+        "opacity": 0
+      },
+      {
+        "zoom": 3,
+        "opacity": 0
+      },
+      {
+        "zoom": 4,
+        "opacity": 0
+      },
+      {
+        "zoom": 5,
+        "opacity": 0
+      },
+      {
+        "zoom": 6,
+        "opacity": 0
+      },
+      {
+        "zoom": 7,
+        "opacity": 0
+      },
+      {
+        "zoom": 8,
+        "opacity": 0
+      },
+      {
+        "zoom": 9,
+        "opacity": 0
+      },
+      {
+        "zoom": 10,
+        "opacity": 0
+      },
+      {
+        "zoom": 11,
+        "opacity": 0
+      },
+      {
+        "zoom": 12,
+        "opacity": 0
+      },
+      {
+        "zoom": 13,
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "water",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 1,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 2,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 3,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 4,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 5,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 6,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 7,
+        "color": "#2e261f"
+      },
+      {
+        "zoom": 8,
+        "color": "#2c241e"
+      },
+      {
+        "zoom": 9,
+        "color": "#2a231c"
+      },
+      {
+        "zoom": 10,
+        "color": "#28211b"
+      },
+      {
+        "zoom": 11,
+        "color": "#27201a"
+      },
+      {
+        "zoom": 12,
+        "color": "#261f19"
+      },
+      {
+        "zoom": 13,
+        "color": "#251e18"
+      },
+      {
+        "zoom": 14,
+        "color": "#231d17"
+      },
+      {
+        "zoom": 15,
+        "color": "#221c16"
+      },
+      {
+        "zoom": 16,
+        "color": "#201a15"
+      },
+      {
+        "zoom": 17,
+        "color": "#1f1914"
+      },
+      {
+        "zoom": 18,
+        "color": "#1d1813"
+      },
+      {
+        "zoom": 19,
+        "color": "#1b1712"
+      },
+      {
+        "zoom": 20,
+        "color": "#1a1511"
+      },
+      {
+        "zoom": 21,
+        "color": "#181410"
+      }
+    ]
+  },
+  {
+    "tags": "water",
+    "elements": "geometry",
+    "types": "polyline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.4
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.6
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.8
+      },
+      {
+        "zoom": 6,
+        "opacity": 1
+      },
+      {
+        "zoom": 7,
+        "opacity": 1
+      },
+      {
+        "zoom": 8,
+        "opacity": 1
+      },
+      {
+        "zoom": 9,
+        "opacity": 1
+      },
+      {
+        "zoom": 10,
+        "opacity": 1
+      },
+      {
+        "zoom": 11,
+        "opacity": 1
+      },
+      {
+        "zoom": 12,
+        "opacity": 1
+      },
+      {
+        "zoom": 13,
+        "opacity": 1
+      },
+      {
+        "zoom": 14,
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "bathymetry",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "hue": "#2e261f"
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": ["industrial", "construction_site"]
+    },
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#464039"
+      },
+      {
+        "zoom": 1,
+        "color": "#464039"
+      },
+      {
+        "zoom": 2,
+        "color": "#464039"
+      },
+      {
+        "zoom": 3,
+        "color": "#464039"
+      },
+      {
+        "zoom": 4,
+        "color": "#464039"
+      },
+      {
+        "zoom": 5,
+        "color": "#464039"
+      },
+      {
+        "zoom": 6,
+        "color": "#464039"
+      },
+      {
+        "zoom": 7,
+        "color": "#464039"
+      },
+      {
+        "zoom": 8,
+        "color": "#464039"
+      },
+      {
+        "zoom": 9,
+        "color": "#464039"
+      },
+      {
+        "zoom": 10,
+        "color": "#464039"
+      },
+      {
+        "zoom": 11,
+        "color": "#464039"
+      },
+      {
+        "zoom": 12,
+        "color": "#464039"
+      },
+      {
+        "zoom": 13,
+        "color": "#464039"
+      },
+      {
+        "zoom": 14,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 15,
+        "color": "#3b3630"
+      },
+      {
+        "zoom": 16,
+        "color": "#3a352f"
+      },
+      {
+        "zoom": 17,
+        "color": "#39342f"
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e"
+      },
+      {
+        "zoom": 19,
+        "color": "#37322d"
+      },
+      {
+        "zoom": 20,
+        "color": "#36312d"
+      },
+      {
+        "zoom": 21,
+        "color": "#35302c"
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "transit",
+      "none": [
+        "transit_location",
+        "transit_line",
+        "transit_schema",
+        "is_unclassified_transit"
+      ]
+    },
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#464039"
+      },
+      {
+        "zoom": 1,
+        "color": "#464039"
+      },
+      {
+        "zoom": 2,
+        "color": "#464039"
+      },
+      {
+        "zoom": 3,
+        "color": "#464039"
+      },
+      {
+        "zoom": 4,
+        "color": "#464039"
+      },
+      {
+        "zoom": 5,
+        "color": "#464039"
+      },
+      {
+        "zoom": 6,
+        "color": "#464039"
+      },
+      {
+        "zoom": 7,
+        "color": "#464039"
+      },
+      {
+        "zoom": 8,
+        "color": "#464039"
+      },
+      {
+        "zoom": 9,
+        "color": "#464039"
+      },
+      {
+        "zoom": 10,
+        "color": "#464039"
+      },
+      {
+        "zoom": 11,
+        "color": "#464039"
+      },
+      {
+        "zoom": 12,
+        "color": "#464039"
+      },
+      {
+        "zoom": 13,
+        "color": "#464039"
+      },
+      {
+        "zoom": 14,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 15,
+        "color": "#3b3630"
+      },
+      {
+        "zoom": 16,
+        "color": "#3a352f"
+      },
+      {
+        "zoom": 17,
+        "color": "#39342f"
+      },
+      {
+        "zoom": 18,
+        "color": "#38342e"
+      },
+      {
+        "zoom": 19,
+        "color": "#37332d"
+      },
+      {
+        "zoom": 20,
+        "color": "#36322d"
+      },
+      {
+        "zoom": 21,
+        "color": "#35312c"
+      }
+    ]
+  },
+  {
+    "tags": "fence",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#514a43"
+      },
+      {
+        "zoom": 0,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 1,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 2,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 3,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 4,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 5,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 6,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 7,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 8,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 9,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 10,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 11,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 12,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 13,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 14,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 15,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 16,
+        "opacity": 0.75
+      },
+      {
+        "zoom": 17,
+        "opacity": 0.45
+      },
+      {
+        "zoom": 18,
+        "opacity": 0.45
+      },
+      {
+        "zoom": 19,
+        "opacity": 0.45
+      },
+      {
+        "zoom": 20,
+        "opacity": 0.45
+      },
+      {
+        "zoom": 21,
+        "opacity": 0.45
+      }
+    ]
+  },
+  {
+    "tags": "medical",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#464039"
+      },
+      {
+        "zoom": 1,
+        "color": "#464039"
+      },
+      {
+        "zoom": 2,
+        "color": "#464039"
+      },
+      {
+        "zoom": 3,
+        "color": "#464039"
+      },
+      {
+        "zoom": 4,
+        "color": "#464039"
+      },
+      {
+        "zoom": 5,
+        "color": "#464039"
+      },
+      {
+        "zoom": 6,
+        "color": "#464039"
+      },
+      {
+        "zoom": 7,
+        "color": "#464039"
+      },
+      {
+        "zoom": 8,
+        "color": "#464039"
+      },
+      {
+        "zoom": 9,
+        "color": "#464039"
+      },
+      {
+        "zoom": 10,
+        "color": "#464039"
+      },
+      {
+        "zoom": 11,
+        "color": "#464039"
+      },
+      {
+        "zoom": 12,
+        "color": "#464039"
+      },
+      {
+        "zoom": 13,
+        "color": "#464039"
+      },
+      {
+        "zoom": 14,
+        "color": "#413b35"
+      },
+      {
+        "zoom": 15,
+        "color": "#3b3630"
+      },
+      {
+        "zoom": 16,
+        "color": "#3a352f"
+      },
+      {
+        "zoom": 17,
+        "color": "#39342f"
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e"
+      },
+      {
+        "zoom": 19,
+        "color": "#37322d"
+      },
+      {
+        "zoom": 20,
+        "color": "#36312d"
+      },
+      {
+        "zoom": 21,
+        "color": "#35302c"
+      }
+    ]
+  },
+  {
+    "tags": "beach",
+    "elements": "geometry",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 1,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 2,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 3,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 4,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 5,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 6,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 7,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 8,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 9,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 10,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 11,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 12,
+        "color": "#464039",
+        "opacity": 0.3
+      },
+      {
+        "zoom": 13,
+        "color": "#464039",
+        "opacity": 0.65
+      },
+      {
+        "zoom": 14,
+        "color": "#413b35",
+        "opacity": 1
+      },
+      {
+        "zoom": 15,
+        "color": "#3b3630",
+        "opacity": 1
+      },
+      {
+        "zoom": 16,
+        "color": "#3a352f",
+        "opacity": 1
+      },
+      {
+        "zoom": 17,
+        "color": "#39342f",
+        "opacity": 1
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "opacity": 1
+      },
+      {
+        "zoom": 19,
+        "color": "#37322d",
+        "opacity": 1
+      },
+      {
+        "zoom": 20,
+        "color": "#36312d",
+        "opacity": 1
+      },
+      {
+        "zoom": 21,
+        "color": "#35302c",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": {
+      "all": ["is_tunnel", "path"]
+    },
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#302b27"
+      },
+      {
+        "opacity": 0.3
+      }
+    ]
+  },
+  {
+    "tags": {
+      "all": ["is_tunnel", "path"]
+    },
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "tags": "road_limited",
+    "elements": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#1c1a17"
+      },
+      {
+        "zoom": 0,
+        "scale": 0
+      },
+      {
+        "zoom": 1,
+        "scale": 0
+      },
+      {
+        "zoom": 2,
+        "scale": 0
+      },
+      {
+        "zoom": 3,
+        "scale": 0
+      },
+      {
+        "zoom": 4,
+        "scale": 0
+      },
+      {
+        "zoom": 5,
+        "scale": 0
+      },
+      {
+        "zoom": 6,
+        "scale": 0
+      },
+      {
+        "zoom": 7,
+        "scale": 0
+      },
+      {
+        "zoom": 8,
+        "scale": 0
+      },
+      {
+        "zoom": 9,
+        "scale": 0
+      },
+      {
+        "zoom": 10,
+        "scale": 0
+      },
+      {
+        "zoom": 11,
+        "scale": 0
+      },
+      {
+        "zoom": 12,
+        "scale": 0
+      },
+      {
+        "zoom": 13,
+        "scale": 0.1
+      },
+      {
+        "zoom": 14,
+        "scale": 0.2
+      },
+      {
+        "zoom": 15,
+        "scale": 0.3
+      },
+      {
+        "zoom": 16,
+        "scale": 0.5
+      },
+      {
+        "zoom": 17,
+        "scale": 0.6
+      },
+      {
+        "zoom": 18,
+        "scale": 0.69
+      },
+      {
+        "zoom": 19,
+        "scale": 0.7
+      },
+      {
+        "zoom": 20,
+        "scale": 0.74
+      },
+      {
+        "zoom": 21,
+        "scale": 0.8
+      }
+    ]
+  },
+  {
+    "tags": "road_limited",
+    "elements": "geometry.outline",
+    "stylers": [
+      {
+        "zoom": 0,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 1,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 2,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 3,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 4,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 5,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 6,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 7,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 8,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 9,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 10,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 11,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 12,
+        "color": "#70665c",
+        "scale": 0.9
+      },
+      {
+        "zoom": 13,
+        "color": "#70665c",
+        "scale": 0.1
+      },
+      {
+        "zoom": 14,
+        "color": "#38332e",
+        "scale": 0.2
+      },
+      {
+        "zoom": 15,
+        "color": "#38332e",
+        "scale": 0.3
+      },
+      {
+        "zoom": 16,
+        "color": "#38332e",
+        "scale": 0.5
+      },
+      {
+        "zoom": 17,
+        "color": "#38332e",
+        "scale": 0.6
+      },
+      {
+        "zoom": 18,
+        "color": "#38332e",
+        "scale": 0.75
+      },
+      {
+        "zoom": 19,
+        "color": "#38332e",
+        "scale": 0.76
+      },
+      {
+        "zoom": 20,
+        "color": "#38332e",
+        "scale": 0.79
+      },
+      {
+        "zoom": 21,
+        "color": "#38332e",
+        "scale": 0.86
+      }
+    ]
+  },
+  {
+    "tags": "transit_stop",
+    "elements": "label.icon",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "secondary-color": "#806f60"
+      },
+      {
+        "tertiary-color": "#7b6f65"
+      }
+    ]
+  },
+  {
+    "tags": "entrance",
+    "elements": "label.text.fill",
+    "stylers": [
+      {
+        "color": "#bfb8b0"
+      },
+      {
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "tags": "entrance",
+    "elements": "label.text.outline",
+    "stylers": [
+      {
+        "color": "#0e0d0b"
+      },
+      {
+        "opacity": 0.5
+      }
+    ]
+  },
+  {
+    "tags": {
+      "any": "landcover",
+      "none": "vegetation"
+    },
+    "stylers": {
+      "visibility": "off"
+    }
+  }
+]
