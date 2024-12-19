@@ -31,4 +31,43 @@ export default function header() {
       }
     });
   });
+
+  const navListItem = Array.from(
+    document.querySelectorAll<HTMLElement>(".page-header__nav-list-item")
+  );
+  navListItem.forEach((item) =>
+    item.addEventListener("mouseenter", () => {
+      document.body.classList.remove("header-hidden");
+    })
+  );
+
+  const sectorTabs = Array.from(
+    document.querySelectorAll<HTMLElement>(
+      ".page-header__nav-sectors-image-tab"
+    )
+  );
+  const sectorLinks = Array.from(
+    document.querySelectorAll<HTMLElement>(
+      ".page-header__nav-sectors-submenu-list-item"
+    )
+  );
+
+  const setActive = (index: number) => {
+    sectorTabs.forEach((tab) => tab.classList.remove("active"));
+    sectorLinks.forEach((link) => link.classList.remove("active"));
+
+    sectorTabs[index]?.classList.add("active");
+    sectorLinks[index]?.classList.add("active");
+  };
+
+  sectorLinks.forEach((link, linkIndex) => {
+    link.addEventListener("mousemove", () => {
+      setActive(linkIndex);
+    });
+
+    link.addEventListener("mouseleave", () => {
+      sectorTabs.forEach((tab) => tab.classList.remove("active"));
+      sectorLinks.forEach((link) => link.classList.remove("active"));
+    });
+  });
 }

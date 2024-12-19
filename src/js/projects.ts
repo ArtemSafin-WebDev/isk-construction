@@ -73,13 +73,11 @@ export default function projects() {
     if (list) {
       const config = { attributes: false, childList: true, subtree: false };
 
-      const callback: MutationCallback = (mutationList, observer) => {
+      const callback: MutationCallback = (mutationList, _observer) => {
         for (const mutation of mutationList) {
           if (mutation.type === "childList") {
-            if (mutationList[0]?.addedNodes?.length) {
-              const items = Array.from(
-                mutationList[0].addedNodes
-              ) as HTMLElement[];
+            if (mutation?.addedNodes?.length) {
+              const items = Array.from(mutation.addedNodes) as HTMLElement[];
 
               const cards = items.map((item) =>
                 item.querySelector<HTMLElement>(".projects__card")
@@ -94,21 +92,21 @@ export default function projects() {
                 stagger: 0.2,
                 ease: "power2.out",
               });
+
+              console.log("Nodes added", mutation?.addedNodes);
+            }
+
+            if (mutation?.removedNodes.length) {
+              console.log("Nodes removed", mutation?.removedNodes);
             }
 
             ScrollTrigger.refresh();
-
-            console.log("A child node has been added or removed.");
           }
         }
       };
 
       const observer = new MutationObserver(callback);
       observer.observe(list, config);
-
-      //   setTimeout(() => {
-      //     cards.forEach((card) => card.parentElement?.remove());
-      //   }, 4000);
     }
   });
 }
