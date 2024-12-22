@@ -77,15 +77,20 @@ export default function projects() {
         for (const mutation of mutationList) {
           if (mutation.type === "childList") {
             if (mutation?.addedNodes?.length) {
-              const items = Array.from(mutation.addedNodes) as HTMLElement[];
+              const items = Array.from(mutation.addedNodes).filter(
+                (node) => node.nodeType === 1
+              ) as Element[];
+              const filteredItems = items.filter((element) =>
+                element.matches(".projects__list-item")
+              );
 
-              const cards = items.map((item) =>
+              const cards = filteredItems.map((item) =>
                 item.querySelector<HTMLElement>(".projects__card")
               );
               cards.forEach((card) => {
                 if (card) initSwiper(card);
               });
-              gsap.from(items, {
+              gsap.from(filteredItems, {
                 autoAlpha: 0,
                 y: 30,
                 duration: 0.6,
@@ -93,7 +98,7 @@ export default function projects() {
                 ease: "power2.out",
               });
 
-              console.log("Nodes added", mutation?.addedNodes);
+              console.log("Items added", filteredItems);
             }
 
             if (mutation?.removedNodes.length) {
