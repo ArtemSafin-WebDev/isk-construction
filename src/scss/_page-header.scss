@@ -48,7 +48,7 @@ body.header-hidden .page-header:has(.page-header__nav-list-item:hover) {
   visibility: hidden;
   transition: opacity 0.4s, visibility 0s linear 0.4s;
   z-index: 8;
-  background-color: rgba(black, 0.4);
+  background-color: rgba(black, 0.6);
   // background-color: red;
 
   @include breakpoint(mobile) {
