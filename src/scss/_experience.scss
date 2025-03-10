@@ -210,7 +210,7 @@
     flex-direction: column;
     height: auto;
     box-sizing: border-box;
-
+    backface-visibility: hidden;
     @include breakpoint(mobile) {
       width: 33.5rem;
       margin-right: 1rem;
@@ -235,7 +235,7 @@
   @media (hover: hover) {
     &:hover {
       .experience__slider-card-bg-image {
-        transform: translateZ(0) scale(1.05);
+        transform: scale(1.05);
       }
     }
   }
@@ -255,13 +255,14 @@
   grid-area: stack;
   position: relative;
   overflow: hidden;
+  overflow: clip;
 
   &::after {
     content: "";
     position: absolute;
     inset: -1px;
     background-color: rgba(black, 0.5);
-    transform: translateZ(0) scale(1.1);
+    transform: scale(1.1);
   }
 }
 
@@ -273,7 +274,8 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.6s;
-  transform: translateZ(0) scale(1);
+  transform: scale(1);
+  backface-visibility: hidden;
 }
 
 .experience__slider-card-content {
@@ -283,7 +285,7 @@
   padding: 4rem;
   padding-right: 3.4rem;
   gap: 3rem;
-  z-index: 4;
+  z-index: 10;
 
   @include breakpoint(mobile) {
     padding: 2rem;
